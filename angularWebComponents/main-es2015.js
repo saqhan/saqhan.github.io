@@ -874,7 +874,9 @@ class StoreAppService {
                 name: 'Online Chat'
             },
         ];
-        this.logoUrl = 'https://saqhan.github.io/wibbitz/assets/img/logo.jpg';
+        this.logoUrl = {
+            img: "https://saqhan.github.io/wibbitz/assets/img/logo.jpg",
+        };
         this.footerItems = [
             {
                 title: "Solutions",

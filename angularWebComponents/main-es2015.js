@@ -364,7 +364,7 @@ class FirstPageComponent {
     getSubscribeBlockText() {
         return this.storeBlog.getSubscribeBlockText();
     }
-    /*
+    /**
     *
     */
     onClickButton() {

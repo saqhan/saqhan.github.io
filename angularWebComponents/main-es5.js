@@ -567,7 +567,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         value: function getSubscribeBlockText() {
           return this.storeBlog.getSubscribeBlockText();
         }
-        /*
+        /**
         *
         */
 

@@ -108224,7 +108224,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "messages": [8],
           "mainUser": [8, "main-user"]
         }], [0, "s-saqhan-app-footer", {
-          "footerItems": [8, "footer-items"],
+          "footerItems": [16],
           "footerInfo": [8, "footer-info"],
           "footerCopyright": [8, "footer-copyright"]
         }], [0, "s-saqhan-chat-files-wrapper"], [0, "s-saqhan-chat-personal"], [0, "menu-item", {
@@ -108235,7 +108235,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           "messages": [8],
           "mainUser": [8, "main-user"]
         }], [0, "footer-wrapper", {
-          "footer": [16]
+          "footer": [8]
         }], [0, "s-saqhan-chat-files"], [0, "s-saqhan-chat-form-search"], [0, "s-saqhan-chat-form-search-files"], [0, "s-saqhan-chat-main-user", {
           "mainUser": [8, "main-user"]
         }], [0, "s-saqhan-chat-user", {

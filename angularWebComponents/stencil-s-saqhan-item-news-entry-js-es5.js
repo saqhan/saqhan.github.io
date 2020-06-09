@@ -33,9 +33,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _mock_ac8aa152_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! ./mock-ac8aa152.js */
-    "./node_modules/s-saqhan-v1/dist/esm/mock-ac8aa152.js");
+    var _mock_45c9f158_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ./mock-45c9f158.js */
+    "./node_modules/s-saqhan-v1/dist/esm/mock-45c9f158.js");
 
     var sSaqhanItemNewsCss = ":host{display:block}";
 
@@ -50,9 +50,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         key: "render",
         value: function render() {
           return Object(_index_7a106f9f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", null, Object(_index_7a106f9f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-saqhan-bread-crumbs", {
-            links: _mock_ac8aa152_js__WEBPACK_IMPORTED_MODULE_1__["k"]
+            links: _mock_45c9f158_js__WEBPACK_IMPORTED_MODULE_1__["k"]
           }), Object(_index_7a106f9f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-saqhan-list-news", {
-            news: _mock_ac8aa152_js__WEBPACK_IMPORTED_MODULE_1__["N"]
+            news: _mock_45c9f158_js__WEBPACK_IMPORTED_MODULE_1__["N"]
           }), Object(_index_7a106f9f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-saqhan-app-footer", null));
         }
       }]);

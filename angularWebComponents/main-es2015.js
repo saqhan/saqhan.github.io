@@ -31,10 +31,14 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./footer-first-item_15.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/footer-first-item_15.entry.js",
-		"default~stencil-footer-first-item_15-entry-js~stencil-s-saqhan-chat-app_4-entry-js~stencil-s-saqhan-~7ff85265",
-		"stencil-footer-first-item_15-entry-js"
+	"./footer-first-item_30.entry.js": [
+		"./node_modules/s-saqhan-v1/dist/esm/footer-first-item_30.entry.js",
+		"default~stencil-footer-first-item_30-entry-js~stencil-s-saqhan-item-news-entry-js~stencil-s-saqhan-s~9c00dfaf",
+		"stencil-footer-first-item_30-entry-js"
+	],
+	"./s-saqhan-author-info_4.entry.js": [
+		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-author-info_4.entry.js",
+		"stencil-s-saqhan-author-info_4-entry-js"
 	],
 	"./s-saqhan-bread-card.entry.js": [
 		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-bread-card.entry.js",
@@ -44,53 +48,27 @@ var map = {
 		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-bread-crumbs_2.entry.js",
 		"stencil-s-saqhan-bread-crumbs_2-entry-js"
 	],
-	"./s-saqhan-chat-add-question_3.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-chat-add-question_3.entry.js",
-		"stencil-s-saqhan-chat-add-question_3-entry-js"
+	"./s-saqhan-card-author.entry.js": [
+		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-card-author.entry.js",
+		"stencil-s-saqhan-card-author-entry-js"
 	],
-	"./s-saqhan-chat-app_4.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-chat-app_4.entry.js",
-		"default~stencil-footer-first-item_15-entry-js~stencil-s-saqhan-chat-app_4-entry-js~stencil-s-saqhan-~7ff85265",
-		"stencil-s-saqhan-chat-app_4-entry-js"
-	],
-	"./s-saqhan-chat-files-wrapper_4.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-chat-files-wrapper_4.entry.js",
-		"default~stencil-footer-first-item_15-entry-js~stencil-s-saqhan-chat-app_4-entry-js~stencil-s-saqhan-~7ff85265",
-		"stencil-s-saqhan-chat-files-wrapper_4-entry-js"
-	],
-	"./s-saqhan-chat-files_4.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-chat-files_4.entry.js",
-		"stencil-s-saqhan-chat-files_4-entry-js"
-	],
-	"./s-saqhan-chat-main-user-card_2.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-chat-main-user-card_2.entry.js",
-		"stencil-s-saqhan-chat-main-user-card_2-entry-js"
-	],
-	"./s-saqhan-component.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-component.entry.js",
-		"default~stencil-footer-first-item_15-entry-js~stencil-s-saqhan-chat-app_4-entry-js~stencil-s-saqhan-~7ff85265",
-		"stencil-s-saqhan-component-entry-js"
-	],
-	"./s-saqhan-event-card.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-event-card.entry.js",
-		"stencil-s-saqhan-event-card-entry-js"
+	"./s-saqhan-card-banner.entry.js": [
+		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-card-banner.entry.js",
+		"stencil-s-saqhan-card-banner-entry-js"
 	],
 	"./s-saqhan-item-news.entry.js": [
 		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-item-news.entry.js",
-		"default~stencil-footer-first-item_15-entry-js~stencil-s-saqhan-chat-app_4-entry-js~stencil-s-saqhan-~7ff85265",
+		"default~stencil-footer-first-item_30-entry-js~stencil-s-saqhan-item-news-entry-js~stencil-s-saqhan-s~9c00dfaf",
 		"stencil-s-saqhan-item-news-entry-js"
-	],
-	"./s-saqhan-lenta-news-card_2.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-lenta-news-card_2.entry.js",
-		"stencil-s-saqhan-lenta-news-card_2-entry-js"
 	],
 	"./s-saqhan-news-card.entry.js": [
 		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-news-card.entry.js",
 		"stencil-s-saqhan-news-card-entry-js"
 	],
-	"./s-saqhan-popular-card.entry.js": [
-		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-popular-card.entry.js",
-		"stencil-s-saqhan-popular-card-entry-js"
+	"./s-saqhan-second-page.entry.js": [
+		"./node_modules/s-saqhan-v1/dist/esm/s-saqhan-second-page.entry.js",
+		"default~stencil-footer-first-item_30-entry-js~stencil-s-saqhan-item-news-entry-js~stencil-s-saqhan-s~9c00dfaf",
+		"stencil-s-saqhan-second-page-entry-js"
 	]
 };
 function webpackAsyncContext(req) {
@@ -210,6 +188,9 @@ class AppComponent {
     getFooterInfo() {
         return this.storeService.getFooterInfo();
     }
+    getFooterCopyright() {
+        return this.storeService.getFooterCopyright();
+    }
     /**
   * Сообщения главного юзера
   * */
@@ -236,7 +217,7 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 4, vars: 7, consts: [[3, "menu", "logoUrl", "subscribeText", "clickOnMenu"], [3, "footerInfo", "footerItems"], [3, "mainUser", "messages"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 4, vars: 8, consts: [[3, "menu", "logoUrl", "subscribeText", "clickOnMenu"], [3, "footerInfo", "footerItems", "footerCopyright"], [3, "mainUser", "messages"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "s-saqhan-header-app", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnMenu", function AppComponent_Template_s_saqhan_header_app_clickOnMenu_0_listener($event) { return ctx.clickOnMenuFromSaqhanView($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -246,7 +227,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("menu", ctx.getMenu())("logoUrl", ctx.getLogoUrl())("subscribeText", ctx.getSubscribeText());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("footerInfo", ctx.getFooterInfo())("footerItems", ctx.getFooterItems());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("footerInfo", ctx.getFooterInfo())("footerItems", ctx.getFooterItems())("footerCopyright", ctx.getFooterCopyright());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("mainUser", ctx.getMainUser())("messages", ctx.getMessages());
     } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
@@ -926,6 +907,10 @@ class StoreAppService {
             }
         ];
         this.footerInfo = { title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquid asperiores.' };
+        this.footerCopyright = {
+            title: 'Saqhan Abaev',
+            description: 'Frontend-developer'
+        };
         this.bannerPopular = {
             title: "Storyteller Circle Event Series",
             nameLink: "Read Webinar",
@@ -995,6 +980,9 @@ class StoreAppService {
     }
     getFooterInfo() {
         return this.footerInfo;
+    }
+    getFooterCopyright() {
+        return this.footerCopyright;
     }
     getBannerPopular() {
         return this.bannerPopular;

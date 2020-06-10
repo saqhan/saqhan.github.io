@@ -192,34 +192,48 @@ class AppComponent {
         return this.storeService.getFooterCopyright();
     }
     /**
-  * Сообщения главного юзера
-  * */
+     * Сообщения главного юзера
+     * */
     getMainUser() {
         return this.storeService.getMainUser();
     }
     /**
-    * получаем сообщения для чата
-    * */
+     * получаем сообщения для чата
+     * */
     getMessages() {
         return this.storeService.getMainUser();
     }
     clickOnMenuFromSaqhanView({ detail }) {
         console.log('clickOnMenuFromSaqhanView', detail);
-        if (detail.id === 'home-menu') {
+        switch (detail.id) {
+            case 'home-menu':
+                return this.router.navigate(['first-page']);
+            case 'second-page':
+                return this.router.navigate(['second-page']);
+            case 'list-items':
+                return this.router.navigate(['list-items']);
+            default:
+                this.router.navigate(['first-page']);
+        }
+        // if (detail.id === 'home-menu'){
+        //   this.router.navigate(['first-page']);
+        // } else if (detail.id === 'second-page') {
+        //   this.router.navigate(['second-page']);
+        // } else if (detail.id === 'list-items') {
+        //   this.router.navigate(['list-items']);
+        // }
+    }
+    clickToLogo({ detail }) {
+        console.log('clickOnMenuFromSaqhanView', detail);
+        if (detail.place === 'logo') {
             this.router.navigate(['first-page']);
-        }
-        else if (detail.id === 'second-page') {
-            this.router.navigate(['second-page']);
-        }
-        else if (detail.id === 'list-items') {
-            this.router.navigate(['list-items']);
         }
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 4, vars: 8, consts: [[3, "menu", "logoUrl", "subscribeText", "clickOnMenu"], [3, "footerInfo", "footerItems", "footerCopyright"], [3, "mainUser", "messages"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 4, vars: 8, consts: [[3, "menu", "logoUrl", "subscribeText", "clickOnMenu", "clickToLogo"], [3, "footerInfo", "footerItems", "footerCopyright"], [3, "mainUser", "messages"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "s-saqhan-header-app", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnMenu", function AppComponent_Template_s_saqhan_header_app_clickOnMenu_0_listener($event) { return ctx.clickOnMenuFromSaqhanView($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnMenu", function AppComponent_Template_s_saqhan_header_app_clickOnMenu_0_listener($event) { return ctx.clickOnMenuFromSaqhanView($event); })("clickToLogo", function AppComponent_Template_s_saqhan_header_app_clickToLogo_0_listener($event) { return ctx.clickToLogo($event); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-saqhan-app-footer", 1);
@@ -236,7 +250,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         args: [{
                 selector: 'app-root',
                 templateUrl: './app.component.html',
-                styleUrls: ['./app.component.css']
+                styleUrls: ['./app.component.css'],
             }]
     }], function () { return [{ type: _store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }]; }, null); })();
 
@@ -314,32 +328,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FirstPageComponent", function() { return FirstPageComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _store_app_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../store-app.service */ "./src/app/store-app.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+
 
 
 
 class FirstPageComponent {
-    constructor(storeBlog) {
+    constructor(storeBlog, router) {
         this.storeBlog = storeBlog;
+        this.router = router;
         this.result = 0;
     }
     ngOnInit() {
         this.amount = this.storeBlog.sum(this.a, this.b);
     }
     /*
-    * Получаем главную новость и ленту новостей
-    */
+     * Получаем главную новость и ленту новостей
+     */
     getBlog() {
         return this.storeBlog.getBlog();
     }
     /*
-    * Выводим блог новых новостей
-    */
+     * Выводим блог новых новостей
+     */
     getBlogPost() {
         return this.storeBlog.getBlogPost();
     }
     /*
-    * Получаем популярные новости
-    */
+     * Получаем популярные новости
+     */
     /**
      * Получаем Events
      */
@@ -347,8 +364,8 @@ class FirstPageComponent {
         return this.storeBlog.getEvents();
     }
     /**
-    * Получаем Popular News
-    */
+     * Получаем Popular News
+     */
     getPopularNews() {
         return this.storeBlog.getPopularNews();
     }
@@ -365,16 +382,35 @@ class FirstPageComponent {
         return this.storeBlog.getSubscribeBlockText();
     }
     /**
-    *
-    */
+     *
+     */
     onClickButton() {
         const result = this.storeBlog.sum(5, 5);
         this.result = result;
     }
+    //click on news
+    clickOnNews({ detail }) {
+        console.log('clickOnNews', detail);
+        if (detail.place === 'title' ||
+            detail.place === 'subTitle' ||
+            detail.place === 'btn read' ||
+            detail.place === 'btn-read') {
+            this.router.navigate(['second-page']);
+        }
+        else if (detail.place === 'category') {
+            this.router.navigate(['list-items']);
+        }
+        else if (detail.place === 'img' && detail.item.id === 7) {
+            this.router.navigate(['list-items']);
+            // console.log('press -', detail.item.id)
+        }
+    }
 }
-FirstPageComponent.ɵfac = function FirstPageComponent_Factory(t) { return new (t || FirstPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"])); };
-FirstPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FirstPageComponent, selectors: [["app-first-page"]], inputs: { a: "a", b: "b" }, decls: 5, vars: 7, consts: [[3, "blogCarouselMock"], [3, "blogPost"], [3, "bannerPopular", "popularNews"], [3, "events"], [3, "subscribeText", "subscribeBlockText"]], template: function FirstPageComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "s-saqhan-first-slider", 0);
+FirstPageComponent.ɵfac = function FirstPageComponent_Factory(t) { return new (t || FirstPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"])); };
+FirstPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FirstPageComponent, selectors: [["app-first-page"]], inputs: { a: "a", b: "b" }, decls: 5, vars: 7, consts: [[3, "blogCarouselMock", "clickOnNews"], [3, "blogPost"], [3, "bannerPopular", "popularNews"], [3, "events"], [3, "subscribeText", "subscribeBlockText"]], template: function FirstPageComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "s-saqhan-first-slider", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnNews", function FirstPageComponent_Template_s_saqhan_first_slider_clickOnNews_0_listener($event) { return ctx.clickOnNews($event); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "s-saqhan-new-blog", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-saqhan-popular-news", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "s-saqhan-events-blog", 3);
@@ -397,7 +433,7 @@ FirstPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
                 templateUrl: './first-page.component.html',
                 styleUrls: ['./first-page.component.css'],
             }]
-    }], function () { return [{ type: _store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"] }]; }, { a: [{
+    }], function () { return [{ type: _store_app_service__WEBPACK_IMPORTED_MODULE_1__["StoreAppService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] }]; }, { a: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
         }], b: [{
             type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]

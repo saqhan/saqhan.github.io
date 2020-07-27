@@ -193,11 +193,11 @@ class StoreServiceService {
                     name: 'Обо мне',
                 },
                 {
-                    id: 'reviews',
-                    name: 'Отзывы',
+                    id: 'skills',
+                    name: 'Навыки',
                 },
                 {
-                    id: 'portfoloi',
+                    id: 'portfolio',
                     name: 'Портфолио',
                 },
                 {
@@ -208,6 +208,23 @@ class StoreServiceService {
             headerTitle: 'Профессиональная разработка сайтов',
             headerBtnTitle: 'отправить завку',
             logoMain: 'http://saqhan.ru/img/logo.png',
+            socilaLinks: [
+                {
+                    name: 'vkontakte',
+                    class: 'fab fa-vk',
+                    links: 'https://vk.com/saqhan'
+                },
+                {
+                    name: 'instagram',
+                    class: 'fab fa-instagram',
+                    links: 'https://www.instagram.com/saqhan/'
+                },
+                {
+                    name: 'github',
+                    class: 'fab fa-github',
+                    links: 'https://github.com/saqhan'
+                },
+            ],
         };
         /*
          * Данные для блока Обо мне
@@ -227,6 +244,23 @@ class StoreServiceService {
                 phone: '+ 7 (965) 954 00 34',
                 email: 'saqhan1@mail.ru',
             },
+            socilaLinks: [
+                {
+                    name: 'vkontakte',
+                    class: 'fab fa-vk',
+                    links: 'https://vk.com/saqhan'
+                },
+                {
+                    name: 'instagram',
+                    class: 'fab fa-instagram',
+                    links: 'https://www.instagram.com/saqhan/'
+                },
+                {
+                    name: 'github',
+                    class: 'fab fa-github',
+                    links: 'https://github.com/saqhan'
+                },
+            ],
         };
         this.portfolio = {
             portfolioCard: [

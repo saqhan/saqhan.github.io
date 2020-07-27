@@ -11,7 +11,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(true);
 // Module
-exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n.animation_duration {\n  animation-duration: 1.5s;\n}\n", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,8EAA8E;;AAE9E;EACE,wBAAwB;AAC1B","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n\n.animation_duration {\n  animation-duration: 1.5s;\n}\n"]}]);
+exports.push([module.i, "/* You can add global styles to this file, and also import other style files */\n\n.animation_duration {\n  animation-duration: 1.5s;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n", "",{"version":3,"sources":["styles.css"],"names":[],"mappings":"AAAA,8EAA8E;;AAE9E;EACE,wBAAwB;AAC1B;;AAEA;EACE,uBAAuB;AACzB","file":"styles.css","sourcesContent":["/* You can add global styles to this file, and also import other style files */\n\n.animation_duration {\n  animation-duration: 1.5s;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}\n"]}]);
 // Exports
 module.exports = exports;
 

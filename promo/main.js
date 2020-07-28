@@ -31,9 +31,9 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./cnt-flexy-view-saqhan-promo-about-me-1_01_9.entry.js": [
-		"./node_modules/s-promo/dist/esm/cnt-flexy-view-saqhan-promo-about-me-1_01_9.entry.js",
-		"stencil-cnt-flexy-view-saqhan-promo-about-me-1_01_9-entry-js"
+	"./cnt-flexy-view-saqhan-promo-about-me_15.entry.js": [
+		"./node_modules/s-promo/dist/esm/cnt-flexy-view-saqhan-promo-about-me_15.entry.js",
+		"stencil-cnt-flexy-view-saqhan-promo-about-me_15-entry-js"
 	]
 };
 function webpackAsyncContext(req) {
@@ -89,17 +89,20 @@ class AppComponent {
     getPortfolio() {
         return this.storeBlog.getPortfolio();
     }
+    getContactForm() {
+        return this.storeBlog.getContactForm();
+    }
     ngOnInit() {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_store_service_service__WEBPACK_IMPORTED_MODULE_1__["StoreServiceService"])); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 6, vars: 6, consts: [[3, "categories"], [3, "payload"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "cnt-flexy-view-saqhan-promo-header-1_01", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "cnt-flexy-view-saqhan-promo-about-me-1_01", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "cnt-flexy-view-saqhan-promo-skils-1_01", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "cnt-flexy-view-saqhan-promo-portfolio-1_01", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "cnt-flexy-view-saqhan-promo-contact-form-1_01", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "cnt-flexy-view-saqhan-promo-footer-1_01", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "cnt-flexy-view-saqhan-promo-header-wrapper-1_01", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "cnt-flexy-view-saqhan-promo-about-me-wrapper-1_01", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "cnt-flexy-view-saqhan-promo-skils-wrapper-1_01", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "cnt-flexy-view-saqhan-promo-portfolio-wrapper-1_01", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "cnt-flexy-view-saqhan-promo-contact-form-wrapper-1_01", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "cnt-flexy-view-saqhan-promo-footer-wrapper", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("categories", ctx.getCategories());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
@@ -109,7 +112,7 @@ AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCompo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getPortfolio());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getAboutMe());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getContactForm());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("categories", ctx.getCategories());
     } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
@@ -207,7 +210,8 @@ class StoreServiceService {
             ],
             headerTitle: 'Профессиональная разработка сайтов',
             headerBtnTitle: 'отправить завку',
-            logoMain: 'http://saqhan.ru/img/logo.png',
+            logoMain: 'http://saqhan.ru/img/pre-stage/logo.png',
+            backgroundImage: 'http://saqhan.ru/img/pre-stage/main_bg.jpg',
             socilaLinks: [
                 {
                     name: 'vkontakte',
@@ -225,6 +229,7 @@ class StoreServiceService {
                     links: 'https://github.com/saqhan'
                 },
             ],
+            footerBackgroundImage: 'http://saqhan.ru/img/pre-stage/footer-bg.jpg',
         };
         /*
          * Данные для блока Обо мне
@@ -237,7 +242,7 @@ class StoreServiceService {
                 text: 'Сайхан, 26 лет. ' +
                     'Занимаюсь разработкой сайтов с нуля, под ключ. Специалист по CMS WordPress. Выполняю верстку и программирование сайтов. Добавляю весь необходимый функционал на сайт. Делаю адаптивную верстку на Bootstrap, таким образом Ваш сайт будет отлично выглядеть на всех устройствах. Любой начатый проект довожу до конца, постоянно совершенствую свой профессиональный уровень. Вы можете заказать у меня разработку сайта с нуля, или связаться со мной для сотрудничества.',
             },
-            img: 'http://saqhan.ru/img/saqhan.jpg',
+            img: 'http://saqhan.ru/img/pre-stage/saqhan.jpg',
             contacts: {
                 name: 'Сайхан Абаев',
                 text: 'Профессиональное создание сайтов: разработка дизайна, HTML верстка, посадка на CMS WordPress, программирование на PHP, JavaScript. ',
@@ -269,7 +274,7 @@ class StoreServiceService {
                     title: 'Module Chat',
                     linkGithub: 'https://github.com/saqhan/contacts',
                     linkApp: 'https://saqhan.github.io/contacts/',
-                    img: 'http://saqhan.ru/img/portfolio/angular.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/angular.jpg',
                     category: 'angular',
                 },
                 {
@@ -277,7 +282,7 @@ class StoreServiceService {
                     title: 'Mobile Chat',
                     linkGithub: 'https://github.com/saqhan/contacts',
                     linkApp: 'https://saqhan.github.io/contacts/',
-                    img: 'http://saqhan.ru/img/portfolio/angular.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/angular.jpg',
                     category: 'angular',
                 },
                 {
@@ -285,7 +290,7 @@ class StoreServiceService {
                     title: 'Contacts',
                     linkGithub: 'https://github.com/saqhan/contacts',
                     linkApp: 'https://saqhan.github.io/contacts/',
-                    img: 'http://saqhan.ru/img/portfolio/react.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/react.jpg',
                     category: 'react',
                 },
                 {
@@ -293,7 +298,7 @@ class StoreServiceService {
                     title: 'Приложение no-twitter.',
                     linkGithub: 'https://github.com/saqhan/no-twitter/',
                     linkApp: 'https://saqhan.github.io/no-twitter/',
-                    img: 'http://saqhan.ru/img/portfolio/angular.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/angular.jpg',
                     category: 'angular',
                 },
                 {
@@ -301,7 +306,7 @@ class StoreServiceService {
                     title: 'Министерство автомобильных дорог',
                     linkGithub: '',
                     linkApp: 'https://www.minavtodor-chr.ru/',
-                    img: 'http://saqhan.ru/img/portfolio/minavtodor.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/minavtodor.jpg',
                     category: 'wordpress',
                 },
                 {
@@ -309,7 +314,7 @@ class StoreServiceService {
                     title: 'Todo приложение нa Angular',
                     linkGithub: 'https://github.com/saqhan/ng-todo/',
                     linkApp: 'https://saqhan.github.io/ng-todo/',
-                    img: 'http://saqhan.ru/img/portfolio/angular.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/angular.jpg',
                     category: 'angular',
                 },
                 {
@@ -317,7 +322,7 @@ class StoreServiceService {
                     title: 'Chat приложение нa React',
                     linkGithub: 'https://github.com/saqhan/chat',
                     linkApp: 'https://saqhan.github.io/chat/',
-                    img: 'http://saqhan.ru/img/portfolio/react.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/react.jpg',
                     category: 'react',
                 },
                 {
@@ -325,7 +330,7 @@ class StoreServiceService {
                     title: 'Интернет магазин детских товаров',
                     linkGithub: '',
                     linkApp: 'https://wowchild.ru/',
-                    img: 'http://saqhan.ru/img/portfolio/kids.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/kids.jpg',
                     category: 'wordpress',
                 },
                 {
@@ -333,7 +338,7 @@ class StoreServiceService {
                     title: 'Префектура Ленинского района ЧР',
                     linkGithub: '',
                     linkApp: 'https://prefect-len.ru/',
-                    img: 'http://saqhan.ru/img/portfolio/len-pre.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/len-pre.jpg',
                     category: 'wordpress',
                 },
             ],
@@ -356,40 +361,50 @@ class StoreServiceService {
                 },
             ],
         };
-        this.skils = [
+        this.skills = [
             {
                 name: 'HTML',
-                percent: 90,
+                percent: 75,
             },
             {
                 name: 'CSS',
-                percent: 90,
-            },
-            {
-                name: 'JS',
-                percent: 75,
-            },
-            {
-                name: 'Angular',
                 percent: 70,
             },
             {
+                name: 'JS',
+                percent: 35,
+            },
+            {
+                name: 'Angular',
+                percent: 37,
+            },
+            {
                 name: 'React',
-                percent: 60,
+                percent: 45,
             },
             {
                 name: 'Wordpress',
-                percent: 90,
+                percent: 80,
             },
             {
                 name: 'JQuery',
-                percent: 75,
+                percent: 65,
             },
             {
                 name: 'Photoshop',
-                percent: 90,
+                percent: 50,
             },
         ];
+        this.contactForm = {
+            title: 'Контакты',
+            subTitle: 'Позвоните или напишите на почту',
+            number: '+ 7 (965) 954 00 34',
+            email: 'saqhan1@mail.ru',
+            backgroundImage: 'http://saqhan.ru/img/pre-stage/9.svg'
+        };
+    }
+    getContactForm() {
+        return this.contactForm;
     }
     getCategories() {
         return this.header;
@@ -401,7 +416,7 @@ class StoreServiceService {
         return this.portfolio;
     }
     getSkills() {
-        return this.skils;
+        return this.skills;
     }
 }
 StoreServiceService.ɵfac = function StoreServiceService_Factory(t) { return new (t || StoreServiceService)(); };

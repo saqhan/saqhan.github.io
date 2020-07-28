@@ -229,7 +229,8 @@ class StoreServiceService {
                     links: 'https://github.com/saqhan'
                 },
             ],
-            footerBackgroundImage: 'http://saqhan.ru/img/pre-stage/footer-bg.jpg',
+            footerBackgroundImage: 'http://saqhan.ru/img/pre-stage/footerBg.jpg',
+            modalBackgroundImage: 'http://saqhan.ru/img/pre-stage/modalBg.jpg',
         };
         /*
          * Данные для блока Обо мне

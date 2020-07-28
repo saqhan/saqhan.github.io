@@ -211,7 +211,7 @@ class StoreServiceService {
             headerTitle: 'Профессиональная разработка сайтов',
             headerBtnTitle: 'отправить завку',
             logoMain: 'http://saqhan.ru/img/pre-stage/logo.png',
-            backgroundImage: 'http://saqhan.ru/img/pre-stage/main_bg.jpg',
+            backgroundImage: 'http://saqhan.ru/img/pre-stage/mainBg.jpg',
             socilaLinks: [
                 {
                     name: 'vkontakte',
@@ -338,7 +338,7 @@ class StoreServiceService {
                     title: 'Префектура Ленинского района ЧР',
                     linkGithub: '',
                     linkApp: 'https://prefect-len.ru/',
-                    img: 'http://saqhan.ru/img/pre-stage/len-pre.jpg',
+                    img: 'http://saqhan.ru/img/pre-stage/lenPre.jpg',
                     category: 'wordpress',
                 },
             ],

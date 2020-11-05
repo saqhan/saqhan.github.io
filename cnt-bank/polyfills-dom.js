@@ -2,7 +2,7 @@
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/dom-4061ceba.js":
 /*!*************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/dom-4061ceba.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/dom-4061ceba.js ***!
   \*************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -86,7 +86,7 @@ DOMTokenList
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/dom.js":
 /*!**************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/dom.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/dom.js ***!
   \**************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {

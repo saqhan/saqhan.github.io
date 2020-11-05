@@ -1,105 +1,57 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[6],{
 
-/***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-page-wrapper.entry.js":
-/*!**************************************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-page-wrapper.entry.js ***!
-  \**************************************************************************************************************************************************/
-/*! exports provided: s_cnt_bank_payment_page_wrapper */
+/***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-page-menu_2.entry.js":
+/*!*************************************************************************************************************************************************!*\
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-page-menu_2.entry.js ***!
+  \*************************************************************************************************************************************************/
+/*! exports provided: s_cnt_bank_history_page_menu, s_cnt_bank_history_payment */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s_cnt_bank_payment_page_wrapper", function() { return SCntBankPaymentPageWrapper; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s_cnt_bank_history_page_menu", function() { return SCntBankHistoryPageMenu; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "s_cnt_bank_history_payment", function() { return SCntBankHistoryPayment; });
 /* harmony import */ var _index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index-42a9f42f.js */ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/index-42a9f42f.js");
 
 
-const paymentCategories = {
-    categoriesPanel: 'Ваши платежи',
-    detailBtn: 'fas fa-ellipsis-v',
-    categoriesCard: [
-        {
-            id: 1,
-            img: 'https://www.freepngimg.com/thumb/logo/62809-portable-icons-computer-graphics-logo-network.png',
-            title: 'Learn UX Design',
-            subTitle: '3 month left',
-            detailBtn: 'fas fa-ellipsis-h',
-            dateIcon: 'far fa-calendar-alt',
-            date: '01 November 2020',
-            importance: 'Priority',
-            importanceColor: '#F7D6D9',
-            progressTitle: 'Progress',
-            progress: '80%',
-            progressColor: '#428EF2'
-        },
-        {
-            id: 2,
-            logo: 'IU',
-            logoColor: 'orange',
-            title: 'Learn UX Design',
-            subTitle: '3 month left',
-            detailBtn: 'fas fa-ellipsis-h',
-            dateIcon: 'far fa-calendar-alt',
-            date: '01 November 2020',
-            importance: 'Priority',
-            importanceColor: '#F7D6D9',
-            progressTitle: 'Progress',
-            progress: '70%',
-            progressColor: '#CF515B'
-        },
-        {
-            id: 3,
-            logoIcon: 'fab fa-apple-pay',
-            logoColor: '#CF515B',
-            title: 'Learn UX Design',
-            subTitle: '3 month left',
-            detailBtn: 'fas fa-ellipsis-h',
-            dateIcon: 'far fa-calendar-alt',
-            date: '01 November 2020',
-            importance: 'Priority',
-            importanceColor: '#F7D6D9',
-            progressTitle: 'Progress',
-            progress: '45%',
-            progressColor: '#FFC800'
-        }
-    ]
-};
-const paymentPageTabs = {
-    panelItem: 'Ваши история',
-    panelItemIcon: 'fas fa-ellipsis-v',
-    cardHeadLogo: 'https://www.freepngimg.com/thumb/logo/62809-portable-icons-computer-graphics-logo-network.png',
-    cardHeadTitle: 'Learn UX Design',
-    cardHeadCloseIcon: 'fas fa-chevron-up',
-    cardHeadOpenIcon: 'fas fa-chevron-down',
-    paymentTasks: [
-        {
-            id: 1,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
-        },
-        {
-            id: 2,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
-        },
-        {
-            id: 3,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
-        }
-    ]
-};
+const sCntBankHistoryPageMenuCss = ".history-menu.sc-s-cnt-bank-history-page-menu{overflow:hidden;margin:0 -15px 0 -15px;height:60px}.menu-cards-wrapper.sc-s-cnt-bank-history-page-menu{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;overflow-x:scroll;overflow-y:hidden}.menu-card.sc-s-cnt-bank-history-page-menu{height:100%;margin-right:10px;-ms-flex:1;flex:1;min-width:180px;-webkit-transform:translateX(15px);transform:translateX(15px)}.menu-card.sc-s-cnt-bank-history-page-menu:last-child{margin-right:0;padding-right:15px}.sc-s-cnt-bank-history-page-menu::-webkit-scrollbar{width:0px}@media (min-width: 592px){.history-menu.sc-s-cnt-bank-history-page-menu{margin:15px 0 0 0}.menu-card.sc-s-cnt-bank-history-page-menu{-webkit-transform:translateX(0);transform:translateX(0)}.menu-card.sc-s-cnt-bank-history-page-menu:last-child{padding-right:0}}";
 
-const sCntBankPaymentPageWrapperCss = ".header-wrapper.sc-s-cnt-bank-payment-page-wrapper{position:relative}.content-wrapper.sc-s-cnt-bank-payment-page-wrapper{background-color:#fbfbfb;height:100vh}";
-
-const SCntBankPaymentPageWrapper = class {
+const SCntBankHistoryPageMenu = class {
     constructor(hostRef) {
         Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
     }
     render() {
-        return (Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "app" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "header-wrapper" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-cnt-bank-payment-page-categories", { payload: paymentCategories })), Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "content-wrapper", id: 'payment-page-content' }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-cnt-bank-payment-page-tabs", { payload: paymentPageTabs }))));
+        return (Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "history-menu" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "menu-cards-wrapper" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])(MenuCardFunctionalComponent, { array: this.payload }))));
     }
 };
-SCntBankPaymentPageWrapper.style = sCntBankPaymentPageWrapperCss;
+/**
+ *
+ * @param props
+ * @constructor
+ */
+const MenuCardFunctionalComponent = (props) => {
+    return props.array.map((item) => {
+        return (Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "menu-card" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-cnt-bank-history-page-menu-card", { payload: item })));
+    });
+};
+SCntBankHistoryPageMenu.style = sCntBankHistoryPageMenuCss;
+
+const sCntBankHistoryPaymentCss = ".history-payment-card-wrapper.sc-s-cnt-bank-history-payment{background-color:#F5F5F5;margin:0 -15px}.history-payment-card.sc-s-cnt-bank-history-payment{padding:15px;margin-bottom:10px;background-color:#ffffff}";
+
+const SCntBankHistoryPayment = class {
+    constructor(hostRef) {
+        Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["r"])(this, hostRef);
+    }
+    render() {
+        return (Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "history-payment-card-wrapper" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])(PaymentCardFunctionalComponent, { array: this.payload })));
+    }
+};
+const PaymentCardFunctionalComponent = props => {
+    return props.array.map(item => {
+        return Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("div", { class: "history-payment-card" }, Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["h"])("s-cnt-bank-history-payment-card", { payload: item }));
+    });
+};
+SCntBankHistoryPayment.style = sCntBankHistoryPaymentCss;
 
 
 

@@ -2,7 +2,7 @@
 
 /***/ "../../../node_modules/zone.js/dist/zone-evergreen.js":
 /*!**********************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/node_modules/zone.js/dist/zone-evergreen.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/node_modules/zone.js/dist/zone-evergreen.js ***!
   \**********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -3033,7 +3033,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/apps/main/cnt-bank/src/polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/apps/main/cnt-bank/src/polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })

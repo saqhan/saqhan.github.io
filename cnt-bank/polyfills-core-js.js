@@ -2,7 +2,7 @@
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/core-js.js":
 /*!******************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/core-js.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/core-js.js ***!
   \******************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {

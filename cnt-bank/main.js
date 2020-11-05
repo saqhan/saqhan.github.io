@@ -2,56 +2,120 @@
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm lazy recursive ^\\.\\/.*\\.entry\\.js$ include: \\.entry\\.js$ exclude: \\.system\\.entry\\.js$":
 /*!*******************************************************************************************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm lazy ^\.\/.*\.entry\.js$ include: \.entry\.js$ exclude: \.system\.entry\.js$ namespace object ***!
   \*******************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./my-component_8.entry.js": [
-		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/my-component_8.entry.js",
+	"./my-component_13.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/my-component_13.entry.js",
 		"common",
 		0
 	],
-	"./s-cnt-bank-additional-options.entry.js": [
-		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-additional-options.entry.js",
+	"./s-cnt-bank-cards-menu-btn.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-cards-menu-btn.entry.js",
 		1
 	],
-	"./s-cnt-bank-main-carousel-banners_4.entry.js": [
-		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-main-carousel-banners_4.entry.js",
-		"common",
+	"./s-cnt-bank-cards-menu_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-cards-menu_2.entry.js",
 		2
 	],
-	"./s-cnt-bank-main-page-wrapper.entry.js": [
-		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-main-page-wrapper.entry.js",
+	"./s-cnt-bank-cards-page.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-cards-page.entry.js",
 		"common",
 		3
 	],
-	"./s-cnt-bank-payment-categories-card.entry.js": [
-		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-categories-card.entry.js",
+	"./s-cnt-bank-cards_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-cards_2.entry.js",
 		4
+	],
+	"./s-cnt-bank-history-page-menu-card.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-page-menu-card.entry.js",
+		5
+	],
+	"./s-cnt-bank-history-page-menu_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-page-menu_2.entry.js",
+		6
+	],
+	"./s-cnt-bank-history-page.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-page.entry.js",
+		"common",
+		7
+	],
+	"./s-cnt-bank-history-payment-card.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-history-payment-card.entry.js",
+		8
+	],
+	"./s-cnt-bank-payment-categories-card_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-categories-card_2.entry.js",
+		9
 	],
 	"./s-cnt-bank-payment-page-categories_2.entry.js": [
 		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-page-categories_2.entry.js",
 		"common",
-		5
+		10
 	],
 	"./s-cnt-bank-payment-page-wrapper.entry.js": [
 		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-page-wrapper.entry.js",
-		6
+		"common",
+		11
+	],
+	"./s-cnt-bank-payment-tab-card.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-payment-tab-card.entry.js",
+		12
+	],
+	"./s-cnt-bank-product-card_3.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-product-card_3.entry.js",
+		13
+	],
+	"./s-cnt-bank-product-single-page.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-product-single-page.entry.js",
+		14
+	],
+	"./s-cnt-bank-products-items-wrapper.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-products-items-wrapper.entry.js",
+		"common",
+		15
+	],
+	"./s-cnt-bank-products-items.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-products-items.entry.js",
+		16
+	],
+	"./s-cnt-bank-scan-code-footer_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-scan-code-footer_2.entry.js",
+		17
+	],
+	"./s-cnt-bank-scan-code-page-wrapper.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-scan-code-page-wrapper.entry.js",
+		"common",
+		18
 	],
 	"./s-cnt-bank-search-history-card_2.entry.js": [
 		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-search-history-card_2.entry.js",
-		7
+		19
 	],
 	"./s-cnt-bank-search-history-cards-wrapper_2.entry.js": [
 		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-search-history-cards-wrapper_2.entry.js",
-		8
+		20
 	],
 	"./s-cnt-bank-search-history-page.entry.js": [
 		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-search-history-page.entry.js",
 		"common",
-		9
+		21
+	],
+	"./s-cnt-bank-slider-cards-bonus_4.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-slider-cards-bonus_4.entry.js",
+		22
+	],
+	"./s-cnt-bank-slider-cards-page.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-slider-cards-page.entry.js",
+		"common",
+		23
+	],
+	"./s-cnt-bank-slider-cards_2.entry.js": [
+		"../../../dist/libs/design/stencil/cnt/bank/dist/esm/s-cnt-bank-slider-cards_2.entry.js",
+		24
 	]
 };
 function webpackAsyncContext(req) {
@@ -78,7 +142,7 @@ module.exports = webpackAsyncContext;
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/index-42a9f42f.js":
 /*!***************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/index-42a9f42f.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/index-42a9f42f.js ***!
   \***************************************************************************************************************************/
 /*! exports provided: C, N, a, b, c, d, h, p, r, w */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1243,7 +1307,7 @@ const writeTask = /*@__PURE__*/ queueTask(queueDomWrites, true);
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/loader.mjs":
 /*!********************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/loader.mjs ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/loader.mjs ***!
   \********************************************************************************************************************/
 /*! exports provided: defineCustomElements */
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
@@ -1259,7 +1323,7 @@ __webpack_require__.r(__webpack_exports__);
 const defineCustomElements = (win, options) => {
   if (typeof window === 'undefined') return Promise.resolve();
   return Object(_patch_0fc89114_js__WEBPACK_IMPORTED_MODULE_1__["a"])().then(() => {
-  return Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["b"])([["my-component_8",[[2,"my-component"],[2,"s-cnt-bank-history-page"],[2,"s-cnt-bank-history-page-menu",{"payload":[16]}],[2,"s-cnt-bank-history-payment",{"payload":[16]}],[2,"s-cnt-bank-history-page-menu-card",{"payload":[16]}],[2,"s-cnt-bank-history-payment-card",{"payload":[16]}],[2,"s-cnt-bank-mobile-footer",{"payload":[8],"lastClickedItemState":[32],"tabItemTag":[32]}],[2,"s-cnt-bank-mobile-header",{"payload":[16],"theme":[1]}]]],["s-cnt-bank-main-page-wrapper",[[2,"s-cnt-bank-main-page-wrapper"]]],["s-cnt-bank-payment-categories-card",[[2,"s-cnt-bank-payment-categories-card",{"categories":[16]}]]],["s-cnt-bank-additional-options",[[2,"s-cnt-bank-additional-options",{"payload":[16],"openedAdditionalOptions":[8,"opened-additional-options"]}]]],["s-cnt-bank-payment-page-categories_2",[[2,"s-cnt-bank-payment-page-categories",{"payload":[16],"openedAdditionalOptions":[32]}],[2,"s-cnt-bank-payment-page-tabs",{"payload":[16],"cardDisclosure":[32],"taskCardWarp":[32],"checkedTasks":[32]}]]],["s-cnt-bank-payment-page-wrapper",[[2,"s-cnt-bank-payment-page-wrapper"]]],["s-cnt-bank-search-history-card_2",[[2,"s-cnt-bank-search-history-card",{"cardItems":[16]}],[2,"s-cnt-bank-search-history-card-content",{"content":[16]}]]],["s-cnt-bank-search-history-cards-wrapper_2",[[2,"s-cnt-bank-search-history-cards-wrapper",{"payload":[16]}],[2,"s-cnt-bank-search-history-header",{"payload":[16]}]]],["s-cnt-bank-search-history-page",[[2,"s-cnt-bank-search-history-page"]]],["s-cnt-bank-main-carousel-banners_4",[[2,"s-cnt-bank-main-page-categories",{"payload":[8],"openedAdditionalOptions":[32]}],[2,"s-cnt-bank-main-carousel-banners",{"payload":[8]}],[2,"s-cnt-bank-main-page-banner-in-maps",{"payload":[16]}],[2,"s-cnt-bank-main-page-tabs",{"payload":[8],"lastClickedItemState":[32],"tabItemTag":[32]}]]]], options);
+  return Object(_index_42a9f42f_js__WEBPACK_IMPORTED_MODULE_0__["b"])([["my-component_13",[[2,"my-component"],[2,"s-cnt-bank-main-page-wrapper"],[2,"s-cnt-bank-main-page-categories",{"payload":[8],"openedAdditionalOptions":[32]}],[2,"s-cnt-bank-main-carousel-banners",{"payload":[8]}],[2,"s-cnt-bank-main-page-tabs",{"payload":[8],"lastClickedItemState":[32],"tabItemTag":[32]}],[2,"s-cnt-bank-main-page-banner-in-maps",{"payload":[16]}],[2,"s-cnt-bank-categories-action-item",{"action":[16]}],[2,"s-cnt-bank-categories-card",{"category":[8]}],[2,"s-cnt-bank-main-carousel-card",{"payload":[8]}],[2,"s-cnt-bank-tabs-card",{"tabs":[8],"tabItemTag":[32]}],[2,"s-cnt-bank-mobile-footer",{"payload":[16],"lastClickedItemState":[32],"tabItemTag":[32]}],[2,"s-cnt-bank-additional-options",{"payload":[16],"openedAdditionalOptions":[8,"opened-additional-options"]}],[2,"s-cnt-bank-mobile-header",{"payload":[16],"theme":[1]}]]],["s-cnt-bank-payment-page-wrapper",[[2,"s-cnt-bank-payment-page-wrapper"]]],["s-cnt-bank-slider-cards-page",[[2,"s-cnt-bank-slider-cards-page"]]],["s-cnt-bank-cards-page",[[2,"s-cnt-bank-cards-page"]]],["s-cnt-bank-history-page",[[2,"s-cnt-bank-history-page"]]],["s-cnt-bank-search-history-cards-wrapper_2",[[2,"s-cnt-bank-search-history-cards-wrapper",{"payload":[16]}],[2,"s-cnt-bank-search-history-header",{"payload":[16]}]]],["s-cnt-bank-search-history-page",[[2,"s-cnt-bank-search-history-page"]]],["s-cnt-bank-product-single-page",[[2,"s-cnt-bank-product-single-page",{"payload":[16]}]]],["s-cnt-bank-scan-code-footer_2",[[2,"s-cnt-bank-scan-code-footer",{"payload":[16]}],[2,"s-cnt-bank-scan-code-page",{"payload":[16],"scan":[32]}]]],["s-cnt-bank-cards-menu-btn",[[2,"s-cnt-bank-cards-menu-btn",{"buttonsText":[16]}]]],["s-cnt-bank-history-payment-card",[[2,"s-cnt-bank-history-payment-card",{"payload":[16]}]]],["s-cnt-bank-payment-tab-card",[[2,"s-cnt-bank-payment-tab-card",{"payload":[16],"checked":[8],"cardDisclosure":[32],"taskCardWarp":[32],"checkedTasks":[32]}]]],["s-cnt-bank-product-card_3",[[2,"s-cnt-bank-product-card",{"product":[16]}],[2,"s-cnt-bank-product-list-header",{"payload":[8]}],[2,"s-cnt-bank-product-list-panel-navigate",{"payload":[8]}]]],["s-cnt-bank-products-items",[[2,"s-cnt-bank-products-items",{"payload":[16]}]]],["s-cnt-bank-scan-code-page-wrapper",[[2,"s-cnt-bank-scan-code-page-wrapper"]]],["s-cnt-bank-products-items-wrapper",[[2,"s-cnt-bank-products-items-wrapper"]]],["s-cnt-bank-payment-page-categories_2",[[2,"s-cnt-bank-payment-page-categories",{"payload":[16],"openedAdditionalOptions":[32]}],[2,"s-cnt-bank-payment-page-tabs",{"payload":[16]}]]],["s-cnt-bank-cards-menu_2",[[2,"s-cnt-bank-cards-wrapper",{"payload":[16]}],[2,"s-cnt-bank-cards-menu",{"payload":[16],"lastClickedBtnState":[32]}]]],["s-cnt-bank-history-page-menu-card",[[2,"s-cnt-bank-history-page-menu-card",{"payload":[16]}]]],["s-cnt-bank-history-page-menu_2",[[2,"s-cnt-bank-history-page-menu",{"payload":[16]}],[2,"s-cnt-bank-history-payment",{"payload":[16]}]]],["s-cnt-bank-slider-cards-bonus_4",[[2,"s-cnt-bank-slider-cards-wrapper",{"payload":[16],"cardSettings":[16]}],[2,"s-cnt-bank-slider-cards-bonus",{"payload":[16]}],[2,"s-cnt-bank-slider-cards-header",{"payload":[1]}],[2,"s-cnt-bank-slider-cards-transfers",{"payload":[16]}]]],["s-cnt-bank-cards_2",[[2,"s-cnt-bank-cards",{"cards":[16]}],[2,"s-cnt-bank-cards-add-card",{"payload":[16]}]]],["s-cnt-bank-search-history-card_2",[[2,"s-cnt-bank-search-history-card",{"cardItems":[16]}],[2,"s-cnt-bank-search-history-card-content",{"content":[16]}]]],["s-cnt-bank-slider-cards_2",[[2,"s-cnt-bank-slider-cards",{"cards":[16],"cardSettings":[16],"toggleClassState":[32]}],[2,"s-cnt-bank-slider-cards-settings",{"settingsItems":[16]}]]],["s-cnt-bank-payment-categories-card_2",[[2,"s-cnt-bank-payment-categories-card",{"categories":[16]}],[2,"s-cnt-bank-payment-categories-panel",{"payload":[16],"theme":[1]}]]]], options);
   });
 };
 
@@ -1270,7 +1334,7 @@ const defineCustomElements = (win, options) => {
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/patch-0fc89114.js":
 /*!***************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/patch-0fc89114.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/patch-0fc89114.js ***!
   \***************************************************************************************************************************/
 /*! exports provided: a, p */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1395,7 +1459,7 @@ const patchDynamicImport = (base, orgScriptElm) => {
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/index.js":
 /*!****************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/index.js ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/dist/esm/polyfills/index.js ***!
   \****************************************************************************************************************************/
 /*! exports provided: applyPolyfills */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1443,7 +1507,7 @@ function applyPolyfills() {
 
 /***/ "../../../dist/libs/design/stencil/cnt/bank/loader/index.es2017.mjs":
 /*!************************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/dist/libs/design/stencil/cnt/bank/loader/index.es2017.mjs ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/dist/libs/design/stencil/cnt/bank/loader/index.es2017.mjs ***!
   \************************************************************************************************************************/
 /*! exports provided: applyPolyfills, defineCustomElements */
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
@@ -1465,7 +1529,7 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ "../../../libs/design/stencil/cnt/charts/src/utils/utils.ts":
 /*!****************************************************************************************************************!*\
-  !*** /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/libs/design/stencil/cnt/charts/src/utils/utils.ts ***!
+  !*** /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/libs/design/stencil/cnt/charts/src/utils/utils.ts ***!
   \****************************************************************************************************************/
 /*! exports provided: format, getRandomId, toFixed */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -1644,6 +1708,7 @@ class AppComponent {
     clickOnFooterItem(id) {
         this.StorageBank.navigateFooterItem(id.detail);
     }
+    square() { }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"])); };
 AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["cnt-nx-workspace-root"]], decls: 3, vars: 1, consts: [[1, "footer-wrap"], [3, "payload", "clickOnFooterItem"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
@@ -1692,6 +1757,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ng_bank_cards_page_ng_bank_cards_page_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ng-bank-cards-page/ng-bank-cards-page.component */ "./src/app/ng-bank-cards-page/ng-bank-cards-page.component.ts");
 /* harmony import */ var _ng_snt_bank_slider_cards_page_ng_snt_bank_slider_cards_page_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ng-snt-bank-slider-cards-page/ng-snt-bank-slider-cards-page.component */ "./src/app/ng-snt-bank-slider-cards-page/ng-snt-bank-slider-cards-page.component.ts");
 /* harmony import */ var _ng_cnt_bank_scan_code_page_wrapper_ng_cnt_bank_scan_code_page_wrapper_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ng-cnt-bank-scan-code-page-wrapper/ng-cnt-bank-scan-code-page-wrapper.component */ "./src/app/ng-cnt-bank-scan-code-page-wrapper/ng-cnt-bank-scan-code-page-wrapper.component.ts");
+/* harmony import */ var _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_categories_ng_cnt_bank_payment_page_categories_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component */ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component.ts");
+/* harmony import */ var _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_tabs_ng_cnt_bank_payment_page_tabs_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component */ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component.ts");
+/* harmony import */ var _ng_cnt_bank_scan_code_page_wrapper_res_view_ng_cnt_bank_scan_code_page_ng_cnt_bank_scan_code_page_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ng-cnt-bank-scan-code-page-wrapper/res/view/ng-cnt-bank-scan-code-page/ng-cnt-bank-scan-code-page.component */ "./src/app/ng-cnt-bank-scan-code-page-wrapper/res/view/ng-cnt-bank-scan-code-page/ng-cnt-bank-scan-code-page.component.ts");
+
+
+
 
 
 
@@ -1719,7 +1790,10 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
         _ng_cnt_bank_product_single_page_ng_cnt_bank_product_single_page_component__WEBPACK_IMPORTED_MODULE_9__["NgCntBankProductSinglePageComponent"],
         _ng_bank_cards_page_ng_bank_cards_page_component__WEBPACK_IMPORTED_MODULE_10__["NgBankCardsPageComponent"],
         _ng_snt_bank_slider_cards_page_ng_snt_bank_slider_cards_page_component__WEBPACK_IMPORTED_MODULE_11__["NgSntBankSliderCardsPageComponent"],
-        _ng_cnt_bank_scan_code_page_wrapper_ng_cnt_bank_scan_code_page_wrapper_component__WEBPACK_IMPORTED_MODULE_12__["NgCntBankScanCodePageWrapperComponent"]], imports: [_app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]] }); })();
+        _ng_cnt_bank_scan_code_page_wrapper_ng_cnt_bank_scan_code_page_wrapper_component__WEBPACK_IMPORTED_MODULE_12__["NgCntBankScanCodePageWrapperComponent"],
+        _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_categories_ng_cnt_bank_payment_page_categories_component__WEBPACK_IMPORTED_MODULE_13__["NgCntBankPaymentPageCategoriesComponent"],
+        _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_tabs_ng_cnt_bank_payment_page_tabs_component__WEBPACK_IMPORTED_MODULE_14__["NgCntBankPaymentPageTabsComponent"],
+        _ng_cnt_bank_scan_code_page_wrapper_res_view_ng_cnt_bank_scan_code_page_ng_cnt_bank_scan_code_page_component__WEBPACK_IMPORTED_MODULE_15__["NgCntBankScanCodePageComponent"]], imports: [_app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]] }); })();
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
         args: [{
@@ -1733,7 +1807,10 @@ AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector
                     _ng_cnt_bank_product_single_page_ng_cnt_bank_product_single_page_component__WEBPACK_IMPORTED_MODULE_9__["NgCntBankProductSinglePageComponent"],
                     _ng_bank_cards_page_ng_bank_cards_page_component__WEBPACK_IMPORTED_MODULE_10__["NgBankCardsPageComponent"],
                     _ng_snt_bank_slider_cards_page_ng_snt_bank_slider_cards_page_component__WEBPACK_IMPORTED_MODULE_11__["NgSntBankSliderCardsPageComponent"],
-                    _ng_cnt_bank_scan_code_page_wrapper_ng_cnt_bank_scan_code_page_wrapper_component__WEBPACK_IMPORTED_MODULE_12__["NgCntBankScanCodePageWrapperComponent"]
+                    _ng_cnt_bank_scan_code_page_wrapper_ng_cnt_bank_scan_code_page_wrapper_component__WEBPACK_IMPORTED_MODULE_12__["NgCntBankScanCodePageWrapperComponent"],
+                    _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_categories_ng_cnt_bank_payment_page_categories_component__WEBPACK_IMPORTED_MODULE_13__["NgCntBankPaymentPageCategoriesComponent"],
+                    _ng_cnt_bank_payment_page_wrapper_res_view_ng_cnt_bank_payment_page_tabs_ng_cnt_bank_payment_page_tabs_component__WEBPACK_IMPORTED_MODULE_14__["NgCntBankPaymentPageTabsComponent"],
+                    _ng_cnt_bank_scan_code_page_wrapper_res_view_ng_cnt_bank_scan_code_page_ng_cnt_bank_scan_code_page_component__WEBPACK_IMPORTED_MODULE_15__["NgCntBankScanCodePageComponent"]
                 ],
                 imports: [_app_routing_module__WEBPACK_IMPORTED_MODULE_2__["AppRoutingModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]],
                 providers: [],
@@ -1781,6 +1858,7 @@ class BankService {
         this.paymentPageTabs = _mock__WEBPACK_IMPORTED_MODULE_1__["paymentPageTabs"];
         this.scanCodePage = _mock__WEBPACK_IMPORTED_MODULE_1__["scanCodePage"];
         this.scanCodeFooter = _mock__WEBPACK_IMPORTED_MODULE_1__["scanCodeFooter"];
+        this.mainPageCategoriesAdditionalMock = _mock__WEBPACK_IMPORTED_MODULE_1__["mainPageCategoriesAdditionalMock"];
         //Адам
         this.historyPageMenuMock = _mock__WEBPACK_IMPORTED_MODULE_1__["historyPageMenuMock"];
         this.paymentHistoryMock = _mock__WEBPACK_IMPORTED_MODULE_1__["paymentHistoryMock"];
@@ -1928,6 +2006,9 @@ class BankService {
     getPaymentCategories() {
         return this.paymentCategories;
     }
+    getPaymentCategoriesPanel() {
+        return this.paymentCategories.categoriesPanel;
+    }
     getPaymentPageTabs() {
         return this.paymentPageTabs;
     }
@@ -1936,6 +2017,9 @@ class BankService {
     }
     getScanCodeFooter() {
         return this.scanCodeFooter;
+    }
+    getCategoriesCard() {
+        return this.mainPageCategoriesAdditionalMock;
     }
 }
 BankService.ɵfac = function BankService_Factory(t) { return new (t || BankService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"])); };
@@ -2539,8 +2623,10 @@ const searchHistoryCards = [
 ];
 //Абдуллах
 const paymentCategories = {
-    categoriesPanel: 'Ваши платежи',
-    detailBtn: 'fas fa-ellipsis-v',
+    categoriesPanel: {
+        panelTitle: 'Ваши платежи',
+        detailBtn: 'fas fa-ellipsis-v',
+    },
     categoriesCard: [
         {
             id: 1,
@@ -2554,7 +2640,7 @@ const paymentCategories = {
             importanceColor: '#F7D6D9',
             progressTitle: 'Progress',
             progress: '80%',
-            progressColor: '#428EF2',
+            progressColor: '#428EF2'
         },
         {
             id: 2,
@@ -2569,7 +2655,7 @@ const paymentCategories = {
             importanceColor: '#F7D6D9',
             progressTitle: 'Progress',
             progress: '70%',
-            progressColor: '#CF515B',
+            progressColor: '#CF515B'
         },
         {
             id: 3,
@@ -2584,56 +2670,60 @@ const paymentCategories = {
             importanceColor: '#F7D6D9',
             progressTitle: 'Progress',
             progress: '45%',
-            progressColor: '#FFC800',
-        },
-    ],
-};
-const paymentPageTabs = {
-    panelItem: 'Ваши история',
-    panelItemIcon: 'fas fa-ellipsis-v',
-    cardHeadLogo: 'https://www.freepngimg.com/thumb/logo/62809-portable-icons-computer-graphics-logo-network.png',
-    cardHeadTitle: 'Learn UX Design',
-    cardHeadCloseIcon: 'fas fa-chevron-up',
-    cardHeadOpenIcon: 'fas fa-chevron-down',
-    paymentTasks: [
-        {
-            id: 1,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
-        },
-        {
-            id: 2,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
-        },
-        {
-            id: 3,
-            paymentTask: 'Emphatises',
-            paymentTaskTime: '09.00 am - 10.00 am'
+            progressColor: '#FFC800'
         }
     ]
+};
+const paymentPageTabs = {
+    categoriesPanel: {
+        panelTitle: 'Ваши история',
+        detailBtn: 'fas fa-ellipsis-v',
+    },
+    tabCard: {
+        cardHeadLogo: 'https://www.freepngimg.com/thumb/logo/62809-portable-icons-computer-graphics-logo-network.png',
+        cardHeadTitle: 'Learn UX Design',
+        cardHeadCloseIcon: 'fas fa-chevron-up',
+        cardHeadOpenIcon: 'fas fa-chevron-down',
+        paymentTasks: [
+            {
+                id: 1,
+                paymentTask: 'Emphatises',
+                paymentTaskTime: '09.00 am - 10.00 am'
+            },
+            {
+                id: 2,
+                paymentTask: 'Emphatises',
+                paymentTaskTime: '09.00 am - 10.00 am'
+            },
+            {
+                id: 3,
+                paymentTask: 'Emphatises',
+                paymentTaskTime: '09.00 am - 10.00 am'
+            }
+        ]
+    }
 };
 const scanCodePage = {
     pageTitle: 'Scan the code',
     scanningText: 'Scanning',
     btnStartScanText: 'Start Scanning',
-    btnStopScanText: 'Cancel Scanning'
+    btnStopScanText: 'Cancel Scanning',
 };
 const scanCodeFooter = [
     {
         id: 1,
         item: 'far fa-image',
-        type: 'item'
+        type: 'item',
     },
     {
         id: 2,
         item: 'fas fa-qrcode',
-        type: 'scan-btn'
+        type: 'scan-btn',
     },
     {
         id: 3,
         item: 'fas fa-cog',
-        type: 'item'
+        type: 'item',
     },
 ];
 //Абдуллах
@@ -2667,7 +2757,7 @@ const myCardsMock = {
             secondColor: '239,108,66,1',
             thirdColor: '239,108,66,0.4',
         },
-    ]
+    ],
 };
 const sliderCardsMock = [
     {
@@ -2837,7 +2927,7 @@ class NgCntBankHistoryPageComponent {
 NgCntBankHistoryPageComponent.ɵfac = function NgCntBankHistoryPageComponent_Factory(t) { return new (t || NgCntBankHistoryPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"])); };
 NgCntBankHistoryPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankHistoryPageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-history-page"]], hostBindings: function NgCntBankHistoryPageComponent_HostBindings(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("scroll", function NgCntBankHistoryPageComponent_scroll_HostBindingHandler($event) { return ctx.onScroll($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
-    } }, decls: 7, vars: 3, consts: [[1, "app"], ["id", "header", 1, "header-wrapper"], ["theme", "main", 3, "payload"], ["id", "menu", 1, "menu"], [3, "payload"], [1, "content-wrapper"]], template: function NgCntBankHistoryPageComponent_Template(rf, ctx) { if (rf & 1) {
+    } }, decls: 7, vars: 3, consts: [[1, "app"], ["id", "header", 1, "header-wrapper"], ["theme", "history", 3, "payload"], ["id", "menu", 1, "menu"], [3, "payload"], [1, "content-wrapper"]], template: function NgCntBankHistoryPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-mobile-header", 2);
@@ -2884,15 +2974,56 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgCntBankPaymentPageWrapperComponent", function() { return NgCntBankPaymentPageWrapperComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _bank_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../bank.service */ "./src/app/bank.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "../../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "../../../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../../../node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _res_view_ng_cnt_bank_payment_page_categories_ng_cnt_bank_payment_page_categories_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component */ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component.ts");
+/* harmony import */ var _res_view_ng_cnt_bank_payment_page_tabs_ng_cnt_bank_payment_page_tabs_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component */ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component.ts");
+
+
+
+
+
+
 
 
 
 
 class NgCntBankPaymentPageWrapperComponent {
-    constructor(StorageBank) {
+    constructor(StorageBank, activatedRoute) {
         this.StorageBank = StorageBank;
+        this.activatedRoute = activatedRoute;
+        /**
+         * for unsubscribe after destroy this component
+         * */
+        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_3__["Subject"]();
+        /**
+         *
+         * */
+        this.purchases = [];
     }
     ngOnInit() {
+        this.initQueryStringParams();
+    }
+    ngOnDestroy() {
+        /* unsubscribe all flows$ */
+        this.destroy$.next();
+        this.destroy$.unsubscribe();
+    }
+    /***/
+    initQueryStringParams() {
+        this.activatedRoute.queryParams
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["takeUntil"])(this.destroy$))
+            .subscribe((params) => {
+            if (params['service_id']) {
+                /* если есть service id нам надо показать покупки все этого пользователя (фин организации) */
+                this.purchases = [];
+            }
+            else {
+                /* если не передан service_id нам надо показать все покупки у всех пользователей */
+                this.purchases = [];
+            }
+        });
     }
     getPaymentCategories() {
         return this.StorageBank.getPaymentCategories();
@@ -2900,31 +3031,276 @@ class NgCntBankPaymentPageWrapperComponent {
     getPaymentPageTabs() {
         return this.StorageBank.getPaymentPageTabs();
     }
+    getHeaderMock() {
+        return this.StorageBank.getHeaderMock();
+    }
 }
-NgCntBankPaymentPageWrapperComponent.ɵfac = function NgCntBankPaymentPageWrapperComponent_Factory(t) { return new (t || NgCntBankPaymentPageWrapperComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"])); };
-NgCntBankPaymentPageWrapperComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankPaymentPageWrapperComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-payment-page-wrapper"]], decls: 5, vars: 2, consts: [[1, "app"], ["id", "payment-header-wrap", 1, "header-wrapper"], [3, "payload"], [1, "content-wrapper"]], template: function NgCntBankPaymentPageWrapperComponent_Template(rf, ctx) { if (rf & 1) {
+NgCntBankPaymentPageWrapperComponent.ɵfac = function NgCntBankPaymentPageWrapperComponent_Factory(t) { return new (t || NgCntBankPaymentPageWrapperComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"])); };
+NgCntBankPaymentPageWrapperComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankPaymentPageWrapperComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-payment-page-wrapper"]], decls: 7, vars: 3, consts: [[1, "app"], ["id", "header", 1, "header-wrapper"], ["theme", "main", 3, "payload"], ["id", "menu", 1, "menu"], [3, "payload"], [1, "content-wrapper"]], template: function NgCntBankPaymentPageWrapperComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-payment-page-categories", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-mobile-header", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "s-cnt-bank-payment-page-tabs", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "cnt-nx-workspace-ng-cnt-bank-payment-page-categories", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](6, "cnt-nx-workspace-ng-cnt-bank-payment-page-tabs", 4);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getHeaderMock());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getPaymentCategories());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getPaymentPageTabs());
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2Utd3JhcHBlci9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2Utd3JhcHBlci5jb21wb25lbnQuc2NzcyJ9 */"] });
+    } }, directives: [_res_view_ng_cnt_bank_payment_page_categories_ng_cnt_bank_payment_page_categories_component__WEBPACK_IMPORTED_MODULE_5__["NgCntBankPaymentPageCategoriesComponent"], _res_view_ng_cnt_bank_payment_page_tabs_ng_cnt_bank_payment_page_tabs_component__WEBPACK_IMPORTED_MODULE_6__["NgCntBankPaymentPageTabsComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2Utd3JhcHBlci9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2Utd3JhcHBlci5jb21wb25lbnQuc2NzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankPaymentPageWrapperComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
                 selector: 'cnt-nx-workspace-ng-cnt-bank-payment-page-wrapper',
                 templateUrl: './ng-cnt-bank-payment-page-wrapper.component.html',
-                styleUrls: ['./ng-cnt-bank-payment-page-wrapper.component.scss']
+                styleUrls: ['./ng-cnt-bank-payment-page-wrapper.component.scss'],
             }]
-    }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"] }]; }, null); })();
+    }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component.ts":
+/*!************************************************************************************************************************************************!*\
+  !*** ./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-categories/ng-cnt-bank-payment-page-categories.component.ts ***!
+  \************************************************************************************************************************************************/
+/*! exports provided: NgCntBankPaymentPageCategoriesComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgCntBankPaymentPageCategoriesComponent", function() { return NgCntBankPaymentPageCategoriesComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "../../../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _bank_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../bank.service */ "./src/app/bank.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../../../node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "../../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+
+
+
+
+function NgCntBankPaymentPageCategoriesComponent_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-payment-categories-card", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const item_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("categories", item_r1);
+} }
+class NgCntBankPaymentPageCategoriesComponent {
+    constructor(StorageBank, activatedRoute) {
+        this.StorageBank = StorageBank;
+        this.activatedRoute = activatedRoute;
+        /**
+         * for unsubscribe after destroy this component
+         * */
+        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        /**
+         *
+         * */
+        this.purchases = [];
+    }
+    ngOnInit() {
+        this.initQueryStringParams();
+    }
+    ngOnDestroy() {
+        /* unsubscribe all flows$ */
+        this.destroy$.next();
+        this.destroy$.unsubscribe();
+    }
+    /***/
+    initQueryStringParams() {
+        this.activatedRoute.queryParams
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["takeUntil"])(this.destroy$))
+            .subscribe((params) => {
+            if (params['service_id']) {
+                /* если есть service id нам надо показать покупки все этого пользователя (фин организации) */
+                this.purchases = [];
+            }
+            else {
+                /* если не передан service_id нам надо показать все покупки у всех пользователей */
+                this.purchases = [];
+            }
+        });
+    }
+    /**
+     *
+     */
+    getCategoriesCard() {
+        return this.StorageBank.getCategoriesCard();
+    }
+    /**
+     *
+     */
+    getPaymentCategoriesPanel() {
+        return this.StorageBank.getPaymentCategoriesPanel();
+    }
+    /**
+     *
+     */
+    getMainPageCategoriesAdditionalMock() {
+        return this.StorageBank.getCategoriesCard();
+    }
+    /**
+     *
+     */
+    getOpenedAdditionalOptions() {
+        return this.openedAdditionalOptions;
+    }
+    /**
+     *
+     * */
+    clickAdditionalOptions() {
+        this.openedAdditionalOptions = true;
+        document.querySelector('body').style.overflow = 'hidden';
+    }
+    /**
+     *
+     * */
+    clickCloseAdditionalOptions() {
+        this.openedAdditionalOptions = false;
+        document.querySelector('body').style.overflow = 'visible';
+    }
+}
+NgCntBankPaymentPageCategoriesComponent.ɵfac = function NgCntBankPaymentPageCategoriesComponent_Factory(t) { return new (t || NgCntBankPaymentPageCategoriesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
+NgCntBankPaymentPageCategoriesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankPaymentPageCategoriesComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-payment-page-categories"]], inputs: { payload: "payload" }, decls: 6, vars: 4, consts: [[1, "categories-wrapper"], [3, "payload", "openedAdditionalOptions", "onClickCloseAdditionalOptions"], [3, "click"], [3, "payload"], [1, "categories-content"], ["class", "categories-card", 4, "ngFor", "ngForOf"], [1, "categories-card"], [1, "categories-card-wrap"], [3, "categories"]], template: function NgCntBankPaymentPageCategoriesComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "s-cnt-bank-additional-options", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("onClickCloseAdditionalOptions", function NgCntBankPaymentPageCategoriesComponent_Template_s_cnt_bank_additional_options_onClickCloseAdditionalOptions_1_listener() { return ctx.clickCloseAdditionalOptions(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function NgCntBankPaymentPageCategoriesComponent_Template_div_click_2_listener() { return ctx.clickAdditionalOptions(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "s-cnt-bank-payment-categories-panel", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, NgCntBankPaymentPageCategoriesComponent_div_5_Template, 3, 1, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getMainPageCategoriesAdditionalMock())("openedAdditionalOptions", ctx.getOpenedAdditionalOptions());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getPaymentCategoriesPanel());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.payload.categoriesCard);
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgForOf"]], styles: ["@charset \"UTF-8\";\n*[_ngcontent-%COMP%] {\n  box-sizing: border-box;\n  outline: none;\n}\n.categories-panel[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  margin-bottom: 5px;\n  padding: 10px 0;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n          user-select: none;\n}\n.categories-panel-items[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\n.categories-panel-item[_ngcontent-%COMP%] {\n  margin-right: 10px;\n  color: #dadada;\n  font-weight: 700;\n}\n.active[_ngcontent-%COMP%] {\n  color: #fff;\n}\n.categories-detail-btn[_ngcontent-%COMP%] {\n  cursor: pointer;\n  color: white;\n}\n.categories-content[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  padding-bottom: 10px;\n  margin: 0 -15px;\n}\n.categories-card-wrap[_ngcontent-%COMP%] {\n  display: flex;\n  overflow-y: scroll;\n  overflow-x: auto;\n  \n}\n\n\n\n\n.categories-card-wrap[_ngcontent-%COMP%]::-webkit-scrollbar {\n  width: 0;\n}\n\n.categories-card-wrap[_ngcontent-%COMP%] {\n  -ms-overflow-style: none;\n}\n.categories-card[_ngcontent-%COMP%] {\n  \n  \n  \n  \n  \n}\n.categories-card[_ngcontent-%COMP%] {\n  margin-right: 10px;\n}\n.categories-card[_ngcontent-%COMP%]:first-child {\n  margin-left: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS13cmFwcGVyL3Jlcy92aWV3L25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS1jYXRlZ29yaWVzL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS1jYXRlZ29yaWVzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGdCQUFnQjtBQUFoQjtFQUNFLHNCQUFBO0VBQ0EsYUFBQTtBQUVGO0FBQ0E7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSw4QkFBQTtFQUNBLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLHlCQUFBO0tBQUEsc0JBQUE7VUFBQSxpQkFBQTtBQUVGO0FBQ0E7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7QUFFRjtBQUNBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7QUFFRjtBQUNBO0VBQ0UsV0FBQTtBQUVGO0FBQ0E7RUFDRSxlQUFBO0VBQ0EsWUFBQTtBQUVGO0FBQ0E7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFFQSxvQkFBQTtFQUNBLGVBQUE7QUFDRjtBQUVBO0VBQ0UsYUFBQTtFQUNBLGtCQUFBO0VBQ0EsZ0JBQUE7RUFDQSxrQkFBQTtBQUNGO0FBRUEscUNBQUE7QUFDQSx1QkFBQTtBQUNBLElBQUE7QUFFQSxpQkFBQTtBQUNBO0VBQ0UsUUFBQTtBQUFGO0FBR0EsV0FBQTtBQUNBO0VBQ0Usd0JBQUE7QUFBRjtBQUdBO0VBQ0Usb0JBQUE7RUFDQSxpQkFBQTtFQUNBLHNCQUFBO0VBQ0EsMkJBQUE7RUFDQSx1QkFBQTtBQUFGO0FBR0E7RUFDRSxrQkFBQTtBQUFGO0FBR0E7RUFDRSxpQkFBQTtBQUFGIiwiZmlsZSI6ImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS13cmFwcGVyL3Jlcy92aWV3L25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS1jYXRlZ29yaWVzL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS1jYXRlZ29yaWVzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIG91dGxpbmU6IG5vbmU7XG59XG5cbi5jYXRlZ29yaWVzLXBhbmVsIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuO1xuICBtYXJnaW4tYm90dG9tOiA1cHg7XG4gIHBhZGRpbmc6IDEwcHggMDtcbiAgdXNlci1zZWxlY3Q6IG5vbmU7XG59XG5cbi5jYXRlZ29yaWVzLXBhbmVsLWl0ZW1zIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLmNhdGVnb3JpZXMtcGFuZWwtaXRlbSB7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbiAgY29sb3I6ICNkYWRhZGE7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG5cbi5hY3RpdmUge1xuICBjb2xvcjogI2ZmZjtcbn1cblxuLmNhdGVnb3JpZXMtZGV0YWlsLWJ0bntcbiAgY3Vyc29yOiBwb2ludGVyO1xuICBjb2xvcjogd2hpdGU7XG59XG5cbi5jYXRlZ29yaWVzLWNvbnRlbnQge1xuICBkaXNwbGF5OiBmbGV4O1xuICBhbGlnbi1pdGVtczogY2VudGVyO1xuXG4gIHBhZGRpbmctYm90dG9tOiAxMHB4O1xuICBtYXJnaW46IDAgLTE1cHg7XG59XG5cbi5jYXRlZ29yaWVzLWNhcmQtd3JhcCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIG92ZXJmbG93LXk6IHNjcm9sbDtcbiAgb3ZlcmZsb3cteDogYXV0bztcbiAgLyptYXJnaW46IDAgMTBweDsqL1xufVxuXG4vKi5jYXRlZ29yaWVzLWNhcmQtd3JhcDpmaXJzdC1jaGlsZHsqL1xuLyogIG1hcmdpbi1sZWZ0OiAxNXB4OyovXG4vKn0qL1xuXG4vKiDRhdGA0L7QvCwg0YHQsNGE0LDRgNC4ICovXG4uY2F0ZWdvcmllcy1jYXJkLXdyYXA6Oi13ZWJraXQtc2Nyb2xsYmFyIHtcbiAgd2lkdGg6IDA7XG59XG5cbi8qIGllIDEwKyAqL1xuLmNhdGVnb3JpZXMtY2FyZC13cmFwIHtcbiAgLW1zLW92ZXJmbG93LXN0eWxlOiBub25lO1xufVxuXG4uY2F0ZWdvcmllcy1jYXJkIHtcbiAgLyptaW4td2lkdGg6IDI1N3B4OyovXG4gIC8qaGVpZ2h0OiAxNzVweDsqL1xuICAvKnBhZGRpbmc6IDE1cHggMjBweDsqL1xuICAvKmJhY2tncm91bmQtY29sb3I6IHdoaXRlOyovXG4gIC8qYm9yZGVyLXJhZGl1czogMjBweDsqL1xufVxuXG4uY2F0ZWdvcmllcy1jYXJke1xuICBtYXJnaW4tcmlnaHQ6IDEwcHg7XG59XG5cbi5jYXRlZ29yaWVzLWNhcmQ6Zmlyc3QtY2hpbGR7XG4gIG1hcmdpbi1sZWZ0OiAxNXB4O1xufVxuIl19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankPaymentPageCategoriesComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'cnt-nx-workspace-ng-cnt-bank-payment-page-categories',
+                templateUrl: './ng-cnt-bank-payment-page-categories.component.html',
+                styleUrls: ['./ng-cnt-bank-payment-page-categories.component.scss']
+            }]
+    }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }]; }, { payload: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
+
+
+/***/ }),
+
+/***/ "./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component.ts":
+/*!************************************************************************************************************************************!*\
+  !*** ./src/app/ng-cnt-bank-payment-page-wrapper/res/view/ng-cnt-bank-payment-page-tabs/ng-cnt-bank-payment-page-tabs.component.ts ***!
+  \************************************************************************************************************************************/
+/*! exports provided: NgCntBankPaymentPageTabsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgCntBankPaymentPageTabsComponent", function() { return NgCntBankPaymentPageTabsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "../../../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _bank_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../bank.service */ "./src/app/bank.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../../../node_modules/rxjs/_esm2015/operators/index.js");
+
+
+
+
+
+
+
+
+class NgCntBankPaymentPageTabsComponent {
+    constructor(StorageBank, activatedRoute) {
+        this.StorageBank = StorageBank;
+        this.activatedRoute = activatedRoute;
+        /**
+         * for unsubscribe after destroy this component
+         * */
+        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        /**
+         *
+         * */
+        this.purchases = [];
+    }
+    ngOnInit() {
+        this.initQueryStringParams();
+    }
+    ngOnDestroy() {
+        /* unsubscribe all flows$ */
+        this.destroy$.next();
+        this.destroy$.unsubscribe();
+    }
+    /***/
+    initQueryStringParams() {
+        this.activatedRoute.queryParams
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["takeUntil"])(this.destroy$))
+            .subscribe((params) => {
+            if (params['service_id']) {
+                /* если есть service id нам надо показать покупки все этого пользователя (фин организации) */
+                this.purchases = [];
+            }
+            else {
+                /* если не передан service_id нам надо показать все покупки у всех пользователей */
+                this.purchases = [];
+            }
+        });
+    }
+}
+NgCntBankPaymentPageTabsComponent.ɵfac = function NgCntBankPaymentPageTabsComponent_Factory(t) { return new (t || NgCntBankPaymentPageTabsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
+NgCntBankPaymentPageTabsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankPaymentPageTabsComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-payment-page-tabs"]], inputs: { payload: "payload" }, decls: 5, vars: 2, consts: [[1, "payment-page-wrapper"], [1, ""], [3, "payload", "theme"], [1, "payment-card-wrap"], [3, "payload"]], template: function NgCntBankPaymentPageTabsComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-payment-categories-panel", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "s-cnt-bank-payment-tab-card", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.payload.categoriesPanel);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.payload.tabCard);
+    } }, styles: ["*[_ngcontent-%COMP%] {\n  box-sizing: border-box;\n  outline: none;\n}\n\n.payment-page-wrapper[_ngcontent-%COMP%] {\n  padding-top: 10px;\n  overflow: hidden;\n}\n\n.payment-panel[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  \n  \n}\n\n.payment-panel-items[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n}\n\n.payment-panel-item[_ngcontent-%COMP%] {\n  margin-right: 10px;\n  color: #3a3a3a;\n  font-weight: 700;\n}\n\n.payment-card-wrap[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  margin: 20px 1px 1px 1px;\n}\n\n.sc-s-cnt-bank-payment-page-tabs[_ngcontent-%COMP%] {\n  width: 100%;\n}\n\n@media (max-width: 768px) {\n  .payment-card-wrap[_ngcontent-%COMP%] {\n    margin-top: 30px;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS13cmFwcGVyL3Jlcy92aWV3L25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS10YWJzL25nLWNudC1iYW5rLXBheW1lbnQtcGFnZS10YWJzLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Usc0JBQUE7RUFDQSxhQUFBO0FBQ0Y7O0FBRUE7RUFDRSxpQkFBQTtFQUNBLGdCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSw4QkFBQTtFQUNBLHNCQUFBO0VBQ0EsaUJBQUE7QUFDRjs7QUFFQTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtBQUNGOztBQUVBO0VBQ0Usa0JBQUE7RUFDQSxjQUFBO0VBQ0EsZ0JBQUE7QUFDRjs7QUFFQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLHdCQUFBO0FBQ0Y7O0FBRUE7RUFDRSxXQUFBO0FBQ0Y7O0FBVUE7RUFDRTtJQUNFLGdCQUFBO0VBUEY7QUFDRiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2Utd3JhcHBlci9yZXMvdmlldy9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2UtdGFicy9uZy1jbnQtYmFuay1wYXltZW50LXBhZ2UtdGFicy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIioge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICBvdXRsaW5lOiBub25lO1xufVxuXG4ucGF5bWVudC1wYWdlLXdyYXBwZXJ7XG4gIHBhZGRpbmctdG9wOiAxMHB4O1xuICBvdmVyZmxvdzogaGlkZGVuO1xufVxuXG4ucGF5bWVudC1wYW5lbCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjtcbiAgLyptYXJnaW4tYm90dG9tOiA1cHg7Ki9cbiAgLypwYWRkaW5nOiAxMHB4OyovXG59XG5cbi5wYXltZW50LXBhbmVsLWl0ZW1zIHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnBheW1lbnQtcGFuZWwtaXRlbSB7XG4gIG1hcmdpbi1yaWdodDogMTBweDtcbiAgY29sb3I6ICMzYTNhM2E7XG4gIGZvbnQtd2VpZ2h0OiA3MDA7XG59XG5cbi5wYXltZW50LWNhcmQtd3JhcCB7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICBtYXJnaW46IDIwcHggMXB4IDFweCAxcHg7XG59XG5cbi5zYy1zLWNudC1iYW5rLXBheW1lbnQtcGFnZS10YWJze1xuICB3aWR0aDogMTAwJTtcbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDEyMDBweCkge1xuXG59XG5cbkBtZWRpYSAobWF4LXdpZHRoOiA5OTJweCkge1xuXG59XG5cbkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkge1xuICAucGF5bWVudC1jYXJkLXdyYXAge1xuICAgIG1hcmdpbi10b3A6IDMwcHg7XG4gIH1cbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDU3NnB4KSB7XG5cbn1cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankPaymentPageTabsComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'cnt-nx-workspace-ng-cnt-bank-payment-page-tabs',
+                templateUrl: './ng-cnt-bank-payment-page-tabs.component.html',
+                styleUrls: ['./ng-cnt-bank-payment-page-tabs.component.scss']
+            }]
+    }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }]; }, { payload: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
 
 
 /***/ }),
@@ -2947,11 +3323,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function NgCntBankProductListPageComponent_div_4_Template(rf, ctx) { if (rf & 1) {
+function NgCntBankProductListPageComponent_div_6_Template(rf, ctx) { if (rf & 1) {
     const _r3 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 4);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "s-cnt-bank-product-card", 5);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnCard", function NgCntBankProductListPageComponent_div_4_Template_s_cnt_bank_product_card_clickOnCard_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.onClickOnCard($event.detail); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "s-cnt-bank-product-card", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnCard", function NgCntBankProductListPageComponent_div_6_Template_s_cnt_bank_product_card_clickOnCard_1_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r3); const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r2.onClickOnCard($event.detail); });
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } if (rf & 2) {
@@ -2964,6 +3340,9 @@ class NgCntBankProductListPageComponent {
         this.StorageBank = StorageBank;
     }
     ngOnInit() {
+    }
+    getHeaderMock() {
+        return this.StorageBank.getHeaderMock();
     }
     getBankProductListPage() {
         return this.StorageBank.getBankProductListPage();
@@ -2982,22 +3361,27 @@ class NgCntBankProductListPageComponent {
     }
 }
 NgCntBankProductListPageComponent.ɵfac = function NgCntBankProductListPageComponent_Factory(t) { return new (t || NgCntBankProductListPageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"])); };
-NgCntBankProductListPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankProductListPageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-product-list-page"]], decls: 5, vars: 3, consts: [[1, "product-list-wrapper"], [3, "payload"], [1, "products-content"], ["class", "products-cards-items", 4, "ngFor", "ngForOf"], [1, "products-cards-items"], [3, "product", "clickOnCard"]], template: function NgCntBankProductListPageComponent_Template(rf, ctx) { if (rf & 1) {
+NgCntBankProductListPageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankProductListPageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-product-list-page"]], decls: 7, vars: 4, consts: [[1, "product-list-wrapper"], [1, "product-list-header"], ["theme", "history", 3, "payload"], [3, "payload"], [1, "products-content"], ["class", "products-cards-items", 4, "ngFor", "ngForOf"], [1, "products-cards-items"], [3, "product", "clickOnCard"]], template: function NgCntBankProductListPageComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "s-cnt-bank-product-list-header", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-product-list-panel-navigate", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "div", 2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, NgCntBankProductListPageComponent_div_4_Template, 2, 1, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "s-cnt-bank-mobile-header", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "s-cnt-bank-product-list-header", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "s-cnt-bank-product-list-panel-navigate", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](6, NgCntBankProductListPageComponent_div_6_Template, 2, 1, "div", 5);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getHeaderMock());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getHeaderContent());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getFilterItems());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.getProductsCards());
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".product-list-wrapper[_ngcontent-%COMP%] {\n  padding: 15px 15px 15px 15px;\n}\n\n.products-content[_ngcontent-%COMP%] {\n  height: calc(100vh - 160px);\n  overflow-y: scroll;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXByb2R1Y3QtbGlzdC1wYWdlL25nLWNudC1iYW5rLXByb2R1Y3QtbGlzdC1wYWdlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsNEJBQUE7QUFDRjs7QUFFQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7QUFDRiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wcm9kdWN0LWxpc3QtcGFnZS9uZy1jbnQtYmFuay1wcm9kdWN0LWxpc3QtcGFnZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5wcm9kdWN0LWxpc3Qtd3JhcHBlciB7XG4gIHBhZGRpbmc6IDE1cHggMTVweCAxNXB4IDE1cHg7XG59XG5cbi5wcm9kdWN0cy1jb250ZW50IHtcbiAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMTYwcHgpO1xuICBvdmVyZmxvdy15OiBzY3JvbGw7XG59XG4iXX0= */"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".product-list-wrapper[_ngcontent-%COMP%] {\n  padding: 15px 15px 15px 15px;\n}\n\n.products-content[_ngcontent-%COMP%] {\n  height: calc(100vh - 160px);\n  overflow-y: scroll;\n}\n\n.product-list-header[_ngcontent-%COMP%] {\n  margin-bottom: 10px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXByb2R1Y3QtbGlzdC1wYWdlL25nLWNudC1iYW5rLXByb2R1Y3QtbGlzdC1wYWdlLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsNEJBQUE7QUFDRjs7QUFFQTtFQUNFLDJCQUFBO0VBQ0Esa0JBQUE7QUFDRjs7QUFFQTtFQUNFLG1CQUFBO0FBQ0YiLCJmaWxlIjoiYXBwcy9tYWluL2NudC1iYW5rL3NyYy9hcHAvbmctY250LWJhbmstcHJvZHVjdC1saXN0LXBhZ2UvbmctY250LWJhbmstcHJvZHVjdC1saXN0LXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZHVjdC1saXN0LXdyYXBwZXIge1xuICBwYWRkaW5nOiAxNXB4IDE1cHggMTVweCAxNXB4O1xufVxuXG4ucHJvZHVjdHMtY29udGVudCB7XG4gIGhlaWdodDogY2FsYygxMDB2aCAtIDE2MHB4KTtcbiAgb3ZlcmZsb3cteTogc2Nyb2xsO1xufVxuXG4ucHJvZHVjdC1saXN0LWhlYWRlciB7XG4gIG1hcmdpbi1ib3R0b206IDEwcHg7XG59XG4iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankProductListPageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -3032,6 +3416,9 @@ class NgCntBankProductSinglePageComponent {
     }
     ngOnInit() {
     }
+    getHeaderMock() {
+        return this.StorageBank.getHeaderMock();
+    }
     getBankProductListSinglePage() {
         return this.StorageBank.getBankProductListSinglePage();
     }
@@ -3041,13 +3428,19 @@ class NgCntBankProductSinglePageComponent {
     }
 }
 NgCntBankProductSinglePageComponent.ɵfac = function NgCntBankProductSinglePageComponent_Factory(t) { return new (t || NgCntBankProductSinglePageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"])); };
-NgCntBankProductSinglePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankProductSinglePageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-product-single-page"]], decls: 1, vars: 1, consts: [[3, "payload", "clickOnBackCatalog"]], template: function NgCntBankProductSinglePageComponent_Template(rf, ctx) { if (rf & 1) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "s-cnt-bank-product-single-page", 0);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnBackCatalog", function NgCntBankProductSinglePageComponent_Template_s_cnt_bank_product_single_page_clickOnBackCatalog_0_listener($event) { return ctx.clickOnBackCatalog($event.detail); });
+NgCntBankProductSinglePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankProductSinglePageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-product-single-page"]], decls: 3, vars: 2, consts: [[1, "product-single-header"], ["theme", "history", 3, "payload"], [3, "payload", "clickOnBackCatalog"]], template: function NgCntBankProductSinglePageComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "s-cnt-bank-mobile-header", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "s-cnt-bank-product-single-page", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("clickOnBackCatalog", function NgCntBankProductSinglePageComponent_Template_s_cnt_bank_product_single_page_clickOnBackCatalog_2_listener($event) { return ctx.clickOnBackCatalog($event.detail); });
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getHeaderMock());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("payload", ctx.getBankProductListSinglePage());
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wcm9kdWN0LXNpbmdsZS1wYWdlL25nLWNudC1iYW5rLXByb2R1Y3Qtc2luZ2xlLXBhZ2UuY29tcG9uZW50LnNjc3MifQ== */"] });
+    } }, styles: [".product-single-header[_ngcontent-%COMP%] {\n  padding: 15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXByb2R1Y3Qtc2luZ2xlLXBhZ2UvbmctY250LWJhbmstcHJvZHVjdC1zaW5nbGUtcGFnZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQUE7QUFDRiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1wcm9kdWN0LXNpbmdsZS1wYWdlL25nLWNudC1iYW5rLXByb2R1Y3Qtc2luZ2xlLXBhZ2UuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucHJvZHVjdC1zaW5nbGUtaGVhZGVyIHtcbiAgcGFkZGluZzogMTVweDtcbn1cbiJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankProductSinglePageComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -3111,6 +3504,119 @@ NgCntBankScanCodePageWrapperComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MO
                 styleUrls: ['./ng-cnt-bank-scan-code-page-wrapper.component.scss']
             }]
     }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_1__["BankService"] }]; }, null); })();
+
+
+/***/ }),
+
+/***/ "./src/app/ng-cnt-bank-scan-code-page-wrapper/res/view/ng-cnt-bank-scan-code-page/ng-cnt-bank-scan-code-page.component.ts":
+/*!********************************************************************************************************************************!*\
+  !*** ./src/app/ng-cnt-bank-scan-code-page-wrapper/res/view/ng-cnt-bank-scan-code-page/ng-cnt-bank-scan-code-page.component.ts ***!
+  \********************************************************************************************************************************/
+/*! exports provided: NgCntBankScanCodePageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NgCntBankScanCodePageComponent", function() { return NgCntBankScanCodePageComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "../../../node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "../../../node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _bank_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../bank.service */ "./src/app/bank.service.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "../../../node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs/operators */ "../../../node_modules/rxjs/_esm2015/operators/index.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/common */ "../../../node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+
+
+
+
+
+
+
+
+
+const _c0 = function (a0, a1) { return { "scan-code-page-parent scanning": a0, "scan-code-page-parent": a1 }; };
+class NgCntBankScanCodePageComponent {
+    constructor(StorageBank, activatedRoute) {
+        this.StorageBank = StorageBank;
+        this.activatedRoute = activatedRoute;
+        /**
+         * for unsubscribe after destroy this component
+         * */
+        this.destroy$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"]();
+        /**
+         *
+         * */
+        this.purchases = [];
+    }
+    ngOnInit() {
+        this.initQueryStringParams();
+    }
+    ngOnDestroy() {
+        /* unsubscribe all flows$ */
+        this.destroy$.next();
+        this.destroy$.unsubscribe();
+    }
+    /***/
+    initQueryStringParams() {
+        this.activatedRoute.queryParams
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_4__["takeUntil"])(this.destroy$))
+            .subscribe((params) => {
+            if (params['service_id']) {
+                /* если есть service id нам надо показать покупки все этого пользователя (фин организации) */
+                this.purchases = [];
+            }
+            else {
+                /* если не передан service_id нам надо показать все покупки у всех пользователей */
+                this.purchases = [];
+            }
+        });
+    }
+}
+NgCntBankScanCodePageComponent.ɵfac = function NgCntBankScanCodePageComponent_Factory(t) { return new (t || NgCntBankScanCodePageComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"])); };
+NgCntBankScanCodePageComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NgCntBankScanCodePageComponent, selectors: [["cnt-nx-workspace-ng-cnt-bank-scan-code-page"]], inputs: { payload: "payload" }, decls: 16, vars: 7, consts: [[1, "scan-code-page-wrap"], [3, "ngClass"], [1, "page-title"], [1, "scan-block-wrap"], [1, "scan-line"], [1, "custom-border"], [1, "custom-corner-top"], [1, "custom-corner-bottom"], [1, "custom-corner-right"], [1, "custom-corner-left"], [1, "scanning-percent"], [1, "start-scan-btn"]], template: function NgCntBankScanCodePageComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "div", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](5, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "div", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](9, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](10, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "button", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction2"](4, _c0, ctx.scan === true, ctx.scan === false));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.payload.pageTitle, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.payload.scanningText, "\n");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx.scan ? ctx.payload.btnStopScanText : ctx.payload.btnStartScanText, " ");
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_5__["NgClass"]], styles: ["*[_ngcontent-%COMP%] {\n  box-sizing: border-box;\n  outline: none;\n}\n\n.scan-code-page-wrap[_ngcontent-%COMP%] {\n  position: relative;\n  width: 100%;\n  height: 100%;\n}\n\n.scan-code-page-parent[_ngcontent-%COMP%] {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  height: 100%;\n  width: 100%;\n}\n\n.scanning[_ngcontent-%COMP%]   .scan-block-wrap[_ngcontent-%COMP%] {\n  margin-top: 48px;\n}\n\n.scanning[_ngcontent-%COMP%] {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n}\n\n.scanning[_ngcontent-%COMP%]   .page-title[_ngcontent-%COMP%] {\n  display: none;\n}\n\n.page-title[_ngcontent-%COMP%] {\n  position: relative;\n  font-size: 2rem;\n  bottom: 100px;\n  \n}\n\n.scan-block-wrap[_ngcontent-%COMP%] {\n  position: relative;\n  height: 270px;\n  width: 300px;\n}\n\n.scan-line[_ngcontent-%COMP%] {\n  display: none;\n}\n\n.scanning[_ngcontent-%COMP%]   .scan-line[_ngcontent-%COMP%] {\n  display: block;\n  position: absolute;\n  background-color: #01D562;\n  height: 3px;\n  width: 100%;\n  z-index: 22;\n  animation-name: scan;\n  \n  animation-duration: 5s;\n  animation-timing-function: linear;\n  animation-iteration-count: 1;\n}\n\n@keyframes scan {\n  0% {\n    top: 0;\n  }\n  100% {\n    top: 100%;\n  }\n}\n\n.custom-border[_ngcontent-%COMP%] {\n  position: absolute;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n  background-color: white;\n  border: 2px solid black;\n}\n\n.custom-corner-top[_ngcontent-%COMP%], .custom-corner-bottom[_ngcontent-%COMP%], .custom-corner-right[_ngcontent-%COMP%], .custom-corner-left[_ngcontent-%COMP%] {\n  position: absolute;\n  background-color: white;\n}\n\n.custom-corner-top[_ngcontent-%COMP%], .custom-corner-bottom[_ngcontent-%COMP%] {\n  height: 10px;\n  width: 220px;\n}\n\n.custom-corner-right[_ngcontent-%COMP%], .custom-corner-left[_ngcontent-%COMP%] {\n  height: 185px;\n  width: 10px;\n}\n\n.custom-corner-top[_ngcontent-%COMP%] {\n  top: -3px;\n}\n\n.custom-corner-bottom[_ngcontent-%COMP%] {\n  bottom: -3px;\n}\n\n.custom-corner-right[_ngcontent-%COMP%] {\n  right: -3px;\n}\n\n.custom-corner-left[_ngcontent-%COMP%] {\n  left: -3px;\n}\n\n.scanning-percent[_ngcontent-%COMP%] {\n  display: none;\n  text-align: center;\n  margin: 60px 0;\n  font-size: 22px;\n}\n\n.scanning[_ngcontent-%COMP%]   .scanning-percent[_ngcontent-%COMP%] {\n  display: block;\n}\n\n.start-scan-btn[_ngcontent-%COMP%] {\n  border: none;\n  font-size: 1.5rem;\n  margin-top: 155px;\n  width: 300px;\n  height: 60px;\n  background-color: #01D562;\n  color: white;\n}\n\n.scanning[_ngcontent-%COMP%]   .start-scan-btn[_ngcontent-%COMP%] {\n  background-color: #F94773;\n  margin: 0 auto;\n}\n\n@media (max-width: 576px) {\n  .page-title[_ngcontent-%COMP%] {\n    bottom: 60px;\n    font-size: 1.7rem;\n  }\n\n  .scanning[_ngcontent-%COMP%]   .scan-block-wrap[_ngcontent-%COMP%] {\n    margin-top: 40px;\n  }\n\n  .scan-block-wrap[_ngcontent-%COMP%] {\n    height: 260px;\n    width: 290px;\n  }\n\n  .scanning-percent[_ngcontent-%COMP%] {\n    margin: 34px 0;\n  }\n\n  .start-scan-btn[_ngcontent-%COMP%] {\n    margin-top: 100px;\n  }\n}\n\n@media (max-width: 400px) {\n  .scan-block-wrap[_ngcontent-%COMP%] {\n    height: 240px;\n    width: 270px;\n  }\n}\n\n@media (max-width: 350px) {\n  .page-title[_ngcontent-%COMP%] {\n    bottom: 36px;\n    font-size: 1.5rem;\n  }\n\n  .scan-block-wrap[_ngcontent-%COMP%] {\n    height: 200px;\n    width: 240px;\n  }\n\n  .start-scan-btn[_ngcontent-%COMP%] {\n    margin-top: 70px;\n    height: 50px;\n    font-size: 1.1rem;\n  }\n\n  .scanning-percent[_ngcontent-%COMP%] {\n    margin: 23px 0;\n  }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImFwcHMvbWFpbi9jbnQtYmFuay9zcmMvYXBwL25nLWNudC1iYW5rLXNjYW4tY29kZS1wYWdlLXdyYXBwZXIvcmVzL3ZpZXcvbmctY250LWJhbmstc2Nhbi1jb2RlLXBhZ2UvbmctY250LWJhbmstc2Nhbi1jb2RlLXBhZ2UuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxzQkFBQTtFQUNBLGFBQUE7QUFDRjs7QUFFQTtFQUNFLGtCQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7QUFDRjs7QUFFQTtFQUNFLGFBQUE7RUFDQSxtQkFBQTtFQUNBLHVCQUFBO0VBQ0Esc0JBQUE7RUFDQSxZQUFBO0VBQ0EsV0FBQTtBQUNGOztBQUVBO0VBQ0UsZ0JBQUE7QUFDRjs7QUFFQTtFQUNFLGFBQUE7RUFDQSx1QkFBQTtFQUNBLG1CQUFBO0FBQ0Y7O0FBRUE7RUFDRSxhQUFBO0FBQ0Y7O0FBRUE7RUFDRSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxhQUFBO0VBQ0EsbUJBQUE7QUFDRjs7QUFFQTtFQUNFLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLFlBQUE7QUFDRjs7QUFFQTtFQUNFLGFBQUE7QUFDRjs7QUFFQTtFQUNFLGNBQUE7RUFDQSxrQkFBQTtFQUNBLHlCQUFBO0VBQ0EsV0FBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0Esb0JBQUE7RUFDQSxzQkFBQTtFQUNBLHNCQUFBO0VBQ0EsaUNBQUE7RUFDQSw0QkFBQTtBQUNGOztBQUVBO0VBQ0U7SUFDRSxNQUFBO0VBQ0Y7RUFDQTtJQUNFLFNBQUE7RUFDRjtBQUNGOztBQUdBO0VBQ0Usa0JBQUE7RUFDQSxhQUFBO0VBQ0EsdUJBQUE7RUFDQSxtQkFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsdUJBQUE7RUFDQSx1QkFBQTtBQURGOztBQUlBO0VBQ0Usa0JBQUE7RUFDQSx1QkFBQTtBQURGOztBQUlBO0VBQ0UsWUFBQTtFQUNBLFlBQUE7QUFERjs7QUFJQTtFQUNFLGFBQUE7RUFDQSxXQUFBO0FBREY7O0FBSUE7RUFDRSxTQUFBO0FBREY7O0FBSUE7RUFDRSxZQUFBO0FBREY7O0FBSUE7RUFDRSxXQUFBO0FBREY7O0FBSUE7RUFDRSxVQUFBO0FBREY7O0FBSUE7RUFDRSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxjQUFBO0VBQ0EsZUFBQTtBQURGOztBQUlBO0VBQ0UsY0FBQTtBQURGOztBQUlBO0VBQ0UsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0EsWUFBQTtBQURGOztBQUlBO0VBQ0UseUJBQUE7RUFDQSxjQUFBO0FBREY7O0FBZUE7RUFDRTtJQUNFLFlBQUE7SUFDQSxpQkFBQTtFQVpGOztFQWVBO0lBQ0UsZ0JBQUE7RUFaRjs7RUFlQTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBWkY7O0VBZUE7SUFDRSxjQUFBO0VBWkY7O0VBZUE7SUFDRSxpQkFBQTtFQVpGO0FBQ0Y7O0FBZUE7RUFDRTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBYkY7QUFDRjs7QUFnQkE7RUFDRTtJQUNFLFlBQUE7SUFDQSxpQkFBQTtFQWRGOztFQWlCQTtJQUNFLGFBQUE7SUFDQSxZQUFBO0VBZEY7O0VBaUJBO0lBQ0UsZ0JBQUE7SUFDQSxZQUFBO0lBQ0EsaUJBQUE7RUFkRjs7RUFpQkE7SUFDRSxjQUFBO0VBZEY7QUFDRiIsImZpbGUiOiJhcHBzL21haW4vY250LWJhbmsvc3JjL2FwcC9uZy1jbnQtYmFuay1zY2FuLWNvZGUtcGFnZS13cmFwcGVyL3Jlcy92aWV3L25nLWNudC1iYW5rLXNjYW4tY29kZS1wYWdlL25nLWNudC1iYW5rLXNjYW4tY29kZS1wYWdlLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiKiB7XG4gIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIG91dGxpbmU6IG5vbmU7XG59XG5cbi5zY2FuLWNvZGUtcGFnZS13cmFwIHtcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xuICB3aWR0aDogMTAwJTtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4uc2Nhbi1jb2RlLXBhZ2UtcGFyZW50IHtcbiAgZGlzcGxheTogZmxleDtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gIGhlaWdodDogMTAwJTtcbiAgd2lkdGg6IDEwMCU7XG59XG5cbi5zY2FubmluZyAuc2Nhbi1ibG9jay13cmFwe1xuICBtYXJnaW4tdG9wOiA0OHB4O1xufVxuXG4uc2Nhbm5pbmcge1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbn1cblxuLnNjYW5uaW5nIC5wYWdlLXRpdGxlIHtcbiAgZGlzcGxheTogbm9uZTtcbn1cblxuLnBhZ2UtdGl0bGUge1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGZvbnQtc2l6ZTogMnJlbTtcbiAgYm90dG9tOiAxMDBweDtcbiAgLyptYXJnaW46IDEyMHB4IDA7Ki9cbn1cblxuLnNjYW4tYmxvY2std3JhcCB7XG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgaGVpZ2h0OiAyNzBweDtcbiAgd2lkdGg6IDMwMHB4O1xufVxuXG4uc2Nhbi1saW5le1xuICBkaXNwbGF5OiBub25lO1xufVxuXG4uc2Nhbm5pbmcgLnNjYW4tbGluZSB7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMUQ1NjI7XG4gIGhlaWdodDogM3B4O1xuICB3aWR0aDogMTAwJTtcbiAgei1pbmRleDogMjI7XG4gIGFuaW1hdGlvbi1uYW1lOiBzY2FuO1xuICAvKmFuaW1hdGlvbi1kZWxheTogMDsqL1xuICBhbmltYXRpb24tZHVyYXRpb246IDVzO1xuICBhbmltYXRpb24tdGltaW5nLWZ1bmN0aW9uOiBsaW5lYXI7XG4gIGFuaW1hdGlvbi1pdGVyYXRpb24tY291bnQ6IDE7XG59XG5cbkBrZXlmcmFtZXMgc2NhbiB7XG4gIDAle1xuICAgIHRvcDogMDtcbiAgfVxuICAxMDAle1xuICAgIHRvcDogMTAwJTtcbiAgfVxuXG59XG5cbi5jdXN0b20tYm9yZGVyIHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICBkaXNwbGF5OiBmbGV4O1xuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgd2lkdGg6IDEwMCU7XG4gIGhlaWdodDogMTAwJTtcbiAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XG4gIGJvcmRlcjogMnB4IHNvbGlkIGJsYWNrO1xufVxuXG4uY3VzdG9tLWNvcm5lci10b3AsIC5jdXN0b20tY29ybmVyLWJvdHRvbSwgLmN1c3RvbS1jb3JuZXItcmlnaHQsIC5jdXN0b20tY29ybmVyLWxlZnQge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xufVxuXG4uY3VzdG9tLWNvcm5lci10b3AsIC5jdXN0b20tY29ybmVyLWJvdHRvbSB7XG4gIGhlaWdodDogMTBweDtcbiAgd2lkdGg6IDIyMHB4O1xufVxuXG4uY3VzdG9tLWNvcm5lci1yaWdodCwgLmN1c3RvbS1jb3JuZXItbGVmdCB7XG4gIGhlaWdodDogMTg1cHg7XG4gIHdpZHRoOiAxMHB4O1xufVxuXG4uY3VzdG9tLWNvcm5lci10b3Age1xuICB0b3A6IC0zcHg7XG59XG5cbi5jdXN0b20tY29ybmVyLWJvdHRvbSB7XG4gIGJvdHRvbTogLTNweDtcbn1cblxuLmN1c3RvbS1jb3JuZXItcmlnaHQge1xuICByaWdodDogLTNweDtcbn1cblxuLmN1c3RvbS1jb3JuZXItbGVmdCB7XG4gIGxlZnQ6IC0zcHg7XG59XG5cbi5zY2FubmluZy1wZXJjZW50IHtcbiAgZGlzcGxheTogbm9uZTtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBtYXJnaW46IDYwcHggMDtcbiAgZm9udC1zaXplOiAyMnB4O1xufVxuXG4uc2Nhbm5pbmcgLnNjYW5uaW5nLXBlcmNlbnR7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuXG4uc3RhcnQtc2Nhbi1idG4ge1xuICBib3JkZXI6IG5vbmU7XG4gIGZvbnQtc2l6ZTogMS41cmVtO1xuICBtYXJnaW4tdG9wOiAxNTVweDtcbiAgd2lkdGg6IDMwMHB4O1xuICBoZWlnaHQ6IDYwcHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICMwMUQ1NjI7XG4gIGNvbG9yOiB3aGl0ZTtcbn1cblxuLnNjYW5uaW5nIC5zdGFydC1zY2FuLWJ0biB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNGOTQ3NzM7XG4gIG1hcmdpbjogMCBhdXRvO1xufVxuXG5AbWVkaWEgKG1heC13aWR0aDogMTIwMHB4KSB7XG5cbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDk5MnB4KSB7XG5cbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7XG59XG5cbkBtZWRpYSAobWF4LXdpZHRoOiA1NzZweCkge1xuICAucGFnZS10aXRsZXtcbiAgICBib3R0b206IDYwcHg7XG4gICAgZm9udC1zaXplOiAxLjdyZW07XG4gIH1cblxuICAuc2Nhbm5pbmcgLnNjYW4tYmxvY2std3JhcHtcbiAgICBtYXJnaW4tdG9wOiA0MHB4O1xuICB9XG5cbiAgLnNjYW4tYmxvY2std3JhcCB7XG4gICAgaGVpZ2h0OiAyNjBweDtcbiAgICB3aWR0aDogMjkwcHg7XG4gIH1cblxuICAuc2Nhbm5pbmctcGVyY2VudCB7XG4gICAgbWFyZ2luOiAzNHB4IDA7XG4gIH1cblxuICAuc3RhcnQtc2Nhbi1idG57XG4gICAgbWFyZ2luLXRvcDogMTAwcHg7XG4gIH1cbn1cblxuQG1lZGlhIChtYXgtd2lkdGg6IDQwMHB4KSB7XG4gIC5zY2FuLWJsb2NrLXdyYXAge1xuICAgIGhlaWdodDogMjQwcHg7XG4gICAgd2lkdGg6IDI3MHB4O1xuICB9XG59XG5cbkBtZWRpYSAobWF4LXdpZHRoOiAzNTBweCkge1xuICAucGFnZS10aXRsZXtcbiAgICBib3R0b206IDM2cHg7XG4gICAgZm9udC1zaXplOiAxLjVyZW07XG4gIH1cblxuICAuc2Nhbi1ibG9jay13cmFwIHtcbiAgICBoZWlnaHQ6IDIwMHB4O1xuICAgIHdpZHRoOiAyNDBweDtcbiAgfVxuXG4gIC5zdGFydC1zY2FuLWJ0biB7XG4gICAgbWFyZ2luLXRvcDogNzBweDtcbiAgICBoZWlnaHQ6IDUwcHg7XG4gICAgZm9udC1zaXplOiAxLjFyZW07XG4gIH1cblxuICAuc2Nhbm5pbmctcGVyY2VudCB7XG4gICAgbWFyZ2luOiAyM3B4IDA7XG4gIH1cbn1cbiJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NgCntBankScanCodePageComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'cnt-nx-workspace-ng-cnt-bank-scan-code-page',
+                templateUrl: './ng-cnt-bank-scan-code-page.component.html',
+                styleUrls: ['./ng-cnt-bank-scan-code-page.component.scss']
+            }]
+    }], function () { return [{ type: _bank_service__WEBPACK_IMPORTED_MODULE_2__["BankService"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }]; }, { payload: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }] }); })();
 
 
 /***/ }),
@@ -3324,7 +3830,7 @@ Object(_cnt_nx_workspace_design_stencil_cnt_bank_loader__WEBPACK_IMPORTED_MODULE
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/zurabmagomadov/MyWorkspace/cnt/cnt-nx-workspace/apps/main/cnt-bank/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Users/admin/Desktop/stage-monobank/cnt-nx-workspace-2/apps/main/cnt-bank/src/main.ts */"./src/main.ts");
 
 
 /***/ })

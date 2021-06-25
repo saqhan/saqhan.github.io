@@ -240,15 +240,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var _recipes_recipe_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../recipes/recipe.service */ "ceC1");
+/* harmony import */ var _auth_auth_service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../auth/auth.service */ "qXBG");
+
 
 
 
 
 
 var DataStorageService = /** @class */ (function () {
-    function DataStorageService(http, recipeService) {
+    function DataStorageService(http, recipeService, authService) {
         this.http = http;
         this.recipeService = recipeService;
+        this.authService = authService;
     }
     DataStorageService.prototype.storeRecipes = function () {
         var recipes = this.recipeService.getRecipes();
@@ -260,9 +263,11 @@ var DataStorageService = /** @class */ (function () {
     };
     DataStorageService.prototype.fetchRecipes = function () {
         var _this = this;
-        return this.http
-            .get('https://ng-course-recipe-book-71763-default-rtdb.firebaseio.com/recipes.json')
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (recipes) {
+        return this.authService.user.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["take"])(1), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["exhaustMap"])(function (user) {
+            return _this.http.get('https://ng-course-recipe-book-71763-default-rtdb.firebaseio.com/recipes.json', {
+                params: new _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpParams"]().set('auth', user.token)
+            });
+        }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["map"])(function (recipes) {
             return recipes.map(function (recipe) {
                 return Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])(Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__assign"])({}, recipe), { ingredients: recipe.ingredients ? recipe.ingredients : [] });
             });
@@ -272,11 +277,14 @@ var DataStorageService = /** @class */ (function () {
     };
     DataStorageService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] },
-        { type: _recipes_recipe_service__WEBPACK_IMPORTED_MODULE_4__["RecipeService"] }
+        { type: _recipes_recipe_service__WEBPACK_IMPORTED_MODULE_4__["RecipeService"] },
+        { type: _auth_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"] }
     ]; };
     DataStorageService = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({ providedIn: 'root' }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"], _recipes_recipe_service__WEBPACK_IMPORTED_MODULE_4__["RecipeService"]])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"],
+            _recipes_recipe_service__WEBPACK_IMPORTED_MODULE_4__["RecipeService"],
+            _auth_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]])
     ], DataStorageService);
     return DataStorageService;
 }());
@@ -338,13 +346,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _raw_loader_auth_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./auth.component.html */ "dlo3");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _auth_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./auth.service */ "qXBG");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/router */ "tyNb");
+
 
 
 
 
 var AuthComponent = /** @class */ (function () {
-    function AuthComponent(authService) {
+    function AuthComponent(authService, router) {
         this.authService = authService;
+        this.router = router;
         this.isLoginMode = true;
         this.isLoading = false;
         this.error = null;
@@ -354,7 +365,7 @@ var AuthComponent = /** @class */ (function () {
     };
     AuthComponent.prototype.onSubmit = function (form) {
         var _this = this;
-        if (form.invalid) {
+        if (!form.valid) {
             return;
         }
         var email = form.value.email;
@@ -367,9 +378,10 @@ var AuthComponent = /** @class */ (function () {
         else {
             authObs = this.authService.signup(email, password);
         }
-        authObs.subscribe(function (response) {
-            console.log(response);
+        authObs.subscribe(function (resData) {
+            console.log(resData);
             _this.isLoading = false;
+            _this.router.navigate(['/recipes']);
         }, function (errorMessage) {
             console.log(errorMessage);
             _this.error = errorMessage;
@@ -378,14 +390,15 @@ var AuthComponent = /** @class */ (function () {
         form.reset();
     };
     AuthComponent.ctorParameters = function () { return [
-        { type: _auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"] }
+        { type: _auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"] },
+        { type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"] }
     ]; };
     AuthComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-auth',
             template: _raw_loader_auth_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"]])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_auth_service__WEBPACK_IMPORTED_MODULE_3__["AuthService"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["Router"]])
     ], AuthComponent);
     return AuthComponent;
 }());
@@ -840,6 +853,40 @@ var RecipeService = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "ckZ1":
+/*!************************************!*\
+  !*** ./src/app/auth/user.model.ts ***!
+  \************************************/
+/*! exports provided: User */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "User", function() { return User; });
+var User = /** @class */ (function () {
+    function User(email, id, _token, _tokenExpiration) {
+        this.email = email;
+        this.id = id;
+        this._token = _token;
+        this._tokenExpiration = _tokenExpiration;
+    }
+    Object.defineProperty(User.prototype, "token", {
+        get: function () {
+            if (!this._tokenExpiration || new Date() > this._tokenExpiration) {
+                return null;
+            }
+            return this._token;
+        },
+        enumerable: false,
+        configurable: true
+    });
+    return User;
+}());
+
+
+
+/***/ }),
+
 /***/ "cmNj":
 /*!***************************************************************!*\
   !*** ./src/app/recipes/recipe-edit/recipe-edit.component.css ***!
@@ -940,29 +987,45 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _raw_loader_header_component_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! raw-loader!./header.component.html */ "kjkU");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "fXoL");
 /* harmony import */ var _shared_data_storage_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../shared/data-storage.service */ "GXvH");
+/* harmony import */ var _auth_auth_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../auth/auth.service */ "qXBG");
+
 
 
 
 
 var HeaderComponent = /** @class */ (function () {
-    function HeaderComponent(dataStorageService) {
+    function HeaderComponent(dataStorageService, authService) {
         this.dataStorageService = dataStorageService;
+        this.authService = authService;
+        this.isAuthenticated = false;
     }
     HeaderComponent.prototype.onSaveData = function () {
         this.dataStorageService.storeRecipes();
     };
+    HeaderComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.userSub = this.authService.user.subscribe(function (user) {
+            _this.isAuthenticated = !!user;
+            console.log(!!user);
+            console.log(!user);
+        });
+    };
     HeaderComponent.prototype.onFetchData = function () {
         this.dataStorageService.fetchRecipes().subscribe();
     };
+    HeaderComponent.prototype.ngOnDestroy = function () {
+        this.userSub.unsubscribe();
+    };
     HeaderComponent.ctorParameters = function () { return [
-        { type: _shared_data_storage_service__WEBPACK_IMPORTED_MODULE_3__["DataStorageService"] }
+        { type: _shared_data_storage_service__WEBPACK_IMPORTED_MODULE_3__["DataStorageService"] },
+        { type: _auth_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"] }
     ]; };
     HeaderComponent = Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"])([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["Component"])({
             selector: 'app-header',
             template: _raw_loader_header_component_html__WEBPACK_IMPORTED_MODULE_1__["default"]
         }),
-        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_shared_data_storage_service__WEBPACK_IMPORTED_MODULE_3__["DataStorageService"]])
+        Object(tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"])("design:paramtypes", [_shared_data_storage_service__WEBPACK_IMPORTED_MODULE_3__["DataStorageService"], _auth_auth_service__WEBPACK_IMPORTED_MODULE_4__["AuthService"]])
     ], HeaderComponent);
     return HeaderComponent;
 }());
@@ -1045,7 +1108,7 @@ var RecipesComponent = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Recipe Book</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\">\n          <a routerLink=\"/auth\">Authenticate</a>\n        </li>\n        <li routerLinkActive=\"active\"><a routerLink=\"/recipes\">Recipes</a></li>\n        <li routerLinkActive=\"active\">\n          <a routerLink=\"/shopping-list\">Shopping List</a>\n        </li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li class=\"dropdown\" appDropdown>\n          <a style=\"cursor: pointer;\" class=\"dropdown-toggle\" role=\"button\"\n            >Manage <span class=\"caret\"></span\n          ></a>\n          <ul class=\"dropdown-menu\">\n            <li>\n              <a style=\"cursor: pointer;\" (click)=\"onSaveData()\">Save Data</a>\n            </li>\n            <li>\n              <a style=\"cursor: pointer;\" (click)=\"onFetchData()\">Fetch Data</a>\n            </li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-default\">\n  <div class=\"container-fluid\">\n    <div class=\"navbar-header\">\n      <a routerLink=\"/\" class=\"navbar-brand\">Recipe Book</a>\n    </div>\n\n    <div class=\"collapse navbar-collapse\">\n      <ul class=\"nav navbar-nav\">\n        <li routerLinkActive=\"active\" *ngIf=\"!isAuthenticated\">\n          <a routerLink=\"/auth\">Authenticate</a>\n        </li>\n        <li routerLinkActive=\"active\" *ngIf=\"isAuthenticated\"><a routerLink=\"/recipes\" >Recipes</a></li>\n        <li routerLinkActive=\"active\">\n          <a routerLink=\"/shopping-list\">Shopping List</a>\n        </li>\n      </ul>\n      <ul class=\"nav navbar-nav navbar-right\">\n        <li *ngIf=\"isAuthenticated\" ><a style=\"cursor: pointer\" >Logout</a></li>\n        <li *ngIf=\"isAuthenticated\" class=\"dropdown\" appDropdown>\n          <a style=\"cursor: pointer;\" class=\"dropdown-toggle\" role=\"button\"\n            >Manage <span class=\"caret\"></span\n          ></a>\n          <ul class=\"dropdown-menu\">\n            <li>\n              <a style=\"cursor: pointer;\" (click)=\"onSaveData()\">Save Data</a>\n            </li>\n            <li>\n              <a style=\"cursor: pointer;\" (click)=\"onFetchData()\">Fetch Data</a>\n            </li>\n          </ul>\n        </li>\n      </ul>\n    </div>\n  </div>\n</nav>\n");
 
 /***/ }),
 
@@ -1197,6 +1260,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "tk/3");
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs/operators */ "kU1M");
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! rxjs */ "qCKp");
+/* harmony import */ var _user_model__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./user.model */ "ckZ1");
+
 
 
 
@@ -1205,30 +1270,52 @@ __webpack_require__.r(__webpack_exports__);
 var AuthService = /** @class */ (function () {
     function AuthService(http) {
         this.http = http;
+        this.user = new rxjs__WEBPACK_IMPORTED_MODULE_4__["BehaviorSubject"](null);
     }
     AuthService.prototype.signup = function (email, password) {
-        return this.http.post('https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAiuaV1MD0uvKPTPCSE8lugBe8q9IF5s-0', {
-            email: email,
-            password: password,
-            returnSecuredToken: true
-        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(function (errorRes) {
-            var errorMessage = 'An unknown error occurred!';
-            if (!errorRes.error || !errorRes.error.error) {
-                return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["throwError"])(errorMessage);
-            }
-            switch (errorRes.error.error.message) {
-                case 'EMAIL_EXISTS':
-                    errorMessage = 'This email exists already';
-            }
-            return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["throwError"])(errorMessage);
-        }));
-    };
-    AuthService.prototype.login = function (email, password) {
+        var _this = this;
         return this.http.post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAiuaV1MD0uvKPTPCSE8lugBe8q9IF5s-0', {
             email: email,
             password: password,
             returnSecuredToken: true
-        });
+        }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(this.handleError), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(function (respData) {
+            _this.handleAuthentication(respData.email, respData.localId, respData.idToken, +respData.expiresIn);
+        }));
+    };
+    AuthService.prototype.login = function (email, password) {
+        var _this = this;
+        return this.http
+            .post('https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAiuaV1MD0uvKPTPCSE8lugBe8q9IF5s-0', {
+            email: email,
+            password: password,
+            returnSecureToken: true
+        })
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["catchError"])(this.handleError), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(function (respData) {
+            _this.handleAuthentication(respData.email, respData.localId, respData.idToken, +respData.expiresIn);
+        }));
+    };
+    AuthService.prototype.handleAuthentication = function (email, userId, token, expiresIn) {
+        var expirationDate = new Date(new Date().getTime() + expiresIn * 1000);
+        var user = new _user_model__WEBPACK_IMPORTED_MODULE_5__["User"](email, userId, token, expirationDate);
+        this.user.next(user);
+    };
+    AuthService.prototype.handleError = function (errorRes) {
+        var errorMessage = 'An unknown error occurred!';
+        if (!errorRes.error || !errorRes.error.error) {
+            return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["throwError"])(errorMessage);
+        }
+        switch (errorRes.error.error.message) {
+            case 'EMAIL_EXISTS':
+                errorMessage = 'This email exists already';
+                break;
+            case 'EMAIL_NOT_FOUND':
+                errorMessage = 'This email does not exist.';
+                break;
+            case 'INVALID_PASSWORD':
+                errorMessage = 'This password is not correct.';
+                break;
+        }
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_4__["throwError"])(errorMessage);
     };
     AuthService.ctorParameters = function () { return [
         { type: _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClient"] }

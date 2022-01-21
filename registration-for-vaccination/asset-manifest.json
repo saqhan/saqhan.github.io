@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e73aada6.css",
+    "main.js": "/static/js/main.9d46312a.js",
+    "static/media/Rubik-VariableFont_wght.ttf": "/static/media/Rubik-VariableFont_wght.3a8e5377732eefcf42fb.ttf",
+    "static/media/home-team-banner.jpg": "/static/media/home-team-banner.6cbae972457e475ed103.jpg",
+    "static/media/TheNautigal-Bold.ttf": "/static/media/TheNautigal-Bold.fe88db5c7591efdc1b8f.ttf",
+    "static/media/subheader-bg.png": "/static/media/subheader-bg.00540a82cb6964228fda.png",
+    "static/media/Heebo-VariableFont_wght.ttf": "/static/media/Heebo-VariableFont_wght.021fda4bbc4da0c21299.ttf",
+    "index.html": "/index.html",
+    "main.e73aada6.css.map": "/static/css/main.e73aada6.css.map",
+    "main.9d46312a.js.map": "/static/js/main.9d46312a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e73aada6.css",
+    "static/js/main.9d46312a.js"
+  ]
+}
